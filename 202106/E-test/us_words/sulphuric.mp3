@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Request has expired.</Message>
+  <RequestId>579AD011800DFB434574D0F0</RequestId>
+  <HostId>words-audio.oss.aliyuncs.com</HostId>
+  <Expires>2016-07-28T06:46:26.000Z</Expires>
+  <ServerTime>2016-07-29T03:40:01.000Z</ServerTime>
+</Error>
