@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* </c>
+<c>* ***   4.) INFER   ***</c>
+<c></c>
+<l>list_image_files ('./框框', 'default', 'recursive', ImageFiles)</l>
+<l>tuple_shuffle (ImageFiles, ImageFilesShuffled)</l>
+<c>* 这里要改-------------------------------------------------------------------------------------------</c>
+<c> //create_dict (WindowDict)</c>
+<l>read_dl_model ('./model_best.hdl', DLModelHandle)</l>
+<l>set_dl_model_param (DLModelHandle, 'runtime', 'cpu')</l>
+<c></c>
+<l>set_dl_model_param (DLModelHandle, 'batch_size', 1)</l>
+<c>* </c>
+<l>for i := 0 to 50 by 1</l>
+<l>    read_image (Image, ImageFilesShuffled[i])</l>
+<c>    // 处理图片</c>
+<l>    zoom_image_size (Image, ImageZoom, 512, 320, 'constant')</l>
+<l>    convert_image_type (ImageZoom, ImageConverted, 'real')</l>
+<l>    scale_image (ImageConverted, ImageScaled, 1, -127)</l>
+<c>    // 构造识别参数</c>
+<l>    create_dict (DLSampleInference)</l>
+<l>    set_dict_object (ImageConverted, DLSampleInference, 'image')</l>
+<c>    </c>
+<c>    // 应用识别参数</c>
+<l>    apply_dl_model (DLModelHandle, DLSampleInference, [], DLResult)</l>
+<c>    </c>
+<c>    // 获取识别结果</c>
+<l>    get_dict_tuple (DLResult, 'bbox_row1', row1)</l>
+<l>    get_dict_tuple (DLResult, 'bbox_col1', col1)</l>
+<l>    get_dict_tuple (DLResult, 'bbox_row2', row2)</l>
+<l>    get_dict_tuple (DLResult, 'bbox_col2', col2)</l>
+<l>    get_dict_tuple (DLResult, 'bbox_class_id', class_id)</l>
+<l>    get_dict_tuple (DLResult, 'bbox_confidence', confidence)</l>
+<c>    </c>
+<c>    // 坐标转换</c>
+<l>    get_image_size (Image, Width, Height)</l>
+<l>    row11 := row1 * Height /320</l>
+<l>    col11 := col1 * Width /512</l>
+<l>    row21 := row2 * Height /320</l>
+<l>    col21 := col2 * Width /512</l>
+<l>    gen_rectangle1 (Rectangle, row11, col11, row21, col21)</l>
+<c>    </c>
+<l>    dev_display (Image)</l>
+<l>    dev_set_draw ('margin')</l>
+<l>    dev_display (Rectangle)</l>
+<l>    dev_disp_text (class_id, 'image', row11, col11, 'black', [], [])</l>
+<l>    stop ()</l>
+<l>endfor</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>
