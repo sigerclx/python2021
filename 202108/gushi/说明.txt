@@ -1,0 +1,3 @@
+gushiTest.py 是测试主程序，直接读取gushi.csv,也读取config.ini
+
+CreatGushiCSV.py 是读取gushi.txt ，生成gushi.csv
