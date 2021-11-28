@@ -1,0 +1,13 @@
+
+pip install opencv-python
+pip install torch
+
+
+
+# 本项目只能使用tensorflow 1.15(手动下载安装)，不能使用高版本的tensorflow
+# 首先必须用python 3.7 .其他版本不允许安装
+# 在https://pypi.org/project/tensorflow/1.15.0/#files   页面 下载tensorflow-1.15.0-cp37-cp37m-manylinux2010_x86_64.whl
+pip install tensorflow-1.15.0-cp37-cp37m-manylinux2010_x86_64.whl
+
+git clone https://github.com/TachibanaYoshino/AnimeGANv2
+python convert_weights.py
