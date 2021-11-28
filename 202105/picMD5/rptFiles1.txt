@@ -1,0 +1,4 @@
+权限不足：D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043 - 副本 (3).JPG D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043 - 副本 (2).JPG
+权限不足：D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043 - 副本.JPG D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043 - 副本 (2).JPG
+权限不足：D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043.JPG D:\Python\python2021\2021\202105\picMD5\pic\IMG_0043 - 副本 (2).JPG
+删除文件总数:3  删除文件总大小：0MB

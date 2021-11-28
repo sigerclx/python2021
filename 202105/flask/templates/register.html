@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8" con>
+        <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            //发送表单ajax请求
+            $(":submit").css("background-color","#11111f");
+            $(':submit').on('click',function(){
+                $.ajax({
+                    url:"/registuser",
+                    type:"POST",
+                    data:JSON.stringify($('form').serializeObject()),
+                    contentType:"application/json",  //缺失会出现URL编码，无法转成json对象
+                    success:function(){
+                        alert("成功");
+                    }
+                });
+            });
+
+            /**
+             * 自动将form表单封装成json对象
+             */
+            $.fn.serializeObject = function() {
+                var o = {};
+                var a = this.serializeArray();
+                $.each(a, function() {
+                    if (o[this.name]) {
+                        if (!o[this.name].push) {
+                            o[this.name] = [ o[this.name] ];
+                        }
+                        o[this.name].push(this.value || '');
+                    } else {
+                        o[this.name] = this.value || '';
+                    }
+                });
+                return o;
+            };
+        </script>
+    </head>
+    <body>
+        <form method="post">
+            <label>用户名：<input type="text" name="username" value=""></label>
+            <label>密码：<input type="password" name="password" value=""></label>
+            <input type="submit"></input>
+        </form>
+    </body>
+</html>

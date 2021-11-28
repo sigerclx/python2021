@@ -1,0 +1,1 @@
+﻿pyinstaller -F -c --hiddenimport win32timezone KMService.py

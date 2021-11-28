@@ -1,0 +1,25 @@
+<!-- templates/login.html -->
+
+<DOCTYPE html>
+<html lang="zh-han">
+<head>
+    <title>登录</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form method="post" action='/login'>
+        <table>
+            <tr><td><label>用户名：</td><td><input type="text" name="username" value=""></label></td></tr>
+            <tr><td><label>密码：</td><td><input type="password" name="password" value=""></label></td></tr>
+        </table>
+        <input type="submit" value="登录">
+    </form>
+
+    {% if error %}
+        <p>{{error}}</p>
+    {% endif %}
+</body>
+</html>
+</html>

@@ -1,0 +1,27 @@
+<!-- templates/regist.html -->
+
+<DOCTYPE html>
+<html lang="zh-han">
+<head>
+    <title>注册</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form method="post" action='/regist'>
+        <table>
+            <tr><td><label>用户名：</td><td><input type="text" name="username" value=""></label></td></tr>
+            <tr><td><label>密码：</td><td><input type="password" name="password1" value=""></label></td></tr>
+            <tr><td><label>重复密码：</td><td><input type="password" name="password2" value=""></label></td></tr>
+            <tr><td><label>邮箱：</td><td><input type="email" name="email" value=""></label></td></tr>
+            <tr><td><input type="submit" value="注册"></td><td></td></tr>
+        </table>
+
+    </form>
+
+    {% if error %}
+        <p>{{error}}</p>
+    {% endif %}
+</body>
+</html>

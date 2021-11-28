@@ -1,0 +1,16 @@
+植物油,南瓜籽油 ,Pumpkin Seed Oil
+植物油,山金车浸泡油 ,Arnica Macerated Oil
+植物油,摩洛哥坚果油 ,Argan Oil
+植物油,月见草油 ,Evening Primrose Oil
+植物油,分馏椰子油 ,Fractionated Coconut Oil
+植物油,橄榄油 ,olive Oil
+植物油,沙棘油 ,Sea Buckthorn Oil
+植物油,玫瑰籽油 ,Rosehip seed Oil
+植物油,琼崖海棠油 ,Tamanu Oil
+植物油,甜杏仁油 ,Sweet Almond Oil
+植物油,石榴籽油 ,Pomegranate seed Oil
+植物油,芝麻油 ,Sesame Oil
+植物油,苦楝油 ,Neem Oil
+植物油,荷荷巴油 ,Jojoba Oil
+植物油,葡萄籽油 ,Grape seed Oil
+植物油,鳄梨油 ,Avocado Oil

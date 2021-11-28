@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>树形菜单示例</title>
+    <style type="text/css">
+     ul>li{
+         list-style: none;
+     }
+       /* 可展开*/
+      .switch-open
+      {
+          margin-left:-12px;
+          border:6px solid transparent;
+          display:inline-block;
+          width:0px;
+          height:0px;
+          border-top-color: black;
+
+      }
+       /* 展开完毕*/
+     .switch-close
+     {
+         margin-left:-12px;
+         border:6px solid transparent;
+         display:inline-block;
+         width:0px;
+         height:0px;
+         border-left-color: black;
+         margin-bottom: 2px;
+
+     }
+       /* 改变CheckBox样式*/
+     input[type='checkbox']{
+         width: 20px;
+         height: 20px;
+
+         -webkit-appearance:none;
+         -moz-appearance: none;
+         border: 1px solid #c9c9c9;
+         border-radius: 3px;
+         outline: none;
+         color:white;
+         text-align: center;
+     }
+     input[type='checkbox']:before
+     {
+         content: '√ ';
+         color:transparent;
+     }
+     input[type=checkbox]:checked{
+         background-color: #30add6;
+     }
+     input[type=checkbox]:checked:before{
+         content: '√';
+         color:white;
+         font-weight: bold;
+     }
+
+
+    </style>
+</head>
+<body>
+<div class="warp">
+    <ul id="container">
+    </ul>
+</div>
+
+
+<script type="text/javascript">
+   window.onerror = function(errorMessage, scriptURI, lineNumber,columnNumber,errorObj) {
+       console.log("错误信息：", errorMessage);
+       console.log("出错文件：", scriptURI);
+       console.log("出错行号：", lineNumber);
+       console.log("出错列号：", columnNumber);
+       console.log("错误详情：", errorObj);
+   }
+    //结构
+    var json={
+        'guan':{
+            'guan1':{},
+            'g2':{
+                'g21':{
+					'g211':null,
+					'g212':null,
+					'g213':null
+				},
+                'g22':null,
+                'g23':null
+            },
+            'g3':null
+        },
+        'sun':{
+            's1':null,
+            's2':null
+        },
+        'last':null
+    };
+
+
+    document.write(typeof(json))
+    document.write(json)
+    document.write("<br>--原始json--<br>")
+    document.write(JSON.stringify(json))
+
+    document.write("<br>---传入json-<br>")
+
+    data = {{data|tojson|replace("[","{")|replace("]","}")|safe}}
+    //data = {{data|tojson|safe}}
+    //document.write(data)
+
+    //mytree= eval('('+data+')')
+ /*/*
+    document.write(mytree)
+    document.write("<br>---传入json类型-<br>")
+    document.write(typeof(mytree))
+*/
+
+    //document.write("<br>--转换json-<br>")
+    //data=  JSON.stringify(data)
+    //data2 = JSON.parse(data)
+    //document.write(data2)
+    //document.write(typeof(data))
+
+//这里生成DOM
+    function generate(json,par)
+    {
+        for(var attr in json)
+        {
+            var ele=document.createElement('li');
+            document.write("<br>"+attr+","+json[attr]+"<br>")
+            if(!json[attr])
+                ele.innerHTML=' <input type="checkbox"></input>'+attr;
+            else
+            {
+                ele.innerHTML='<span><span class="switch-open" onclick="toggle(this)"></span><input type="checkbox" onclick="checkChange(this)"></input>'+attr+'</span>';
+                var nextpar=document.createElement('ul');
+                ele.appendChild(nextpar);
+                generate(json[attr],nextpar);
+            }
+            par.appendChild(ele);
+        }
+    }
+    generate(json,document.getElementById('container'));
+    //generate(mytree,document.getElementById('container'));
+    //generate(data,document.getElementById('container'));
+
+    //处理展开和收起
+function toggle(eve)
+{
+    var par=eve.parentNode.nextElementSibling;
+    if(par.style.display=='none')
+    {
+        par.style.display='block';
+        eve.className='switch-open';
+
+    }
+    else
+    {
+        par.style.display='none';
+        eve.className='switch-close';
+    }
+}
+
+//处理全部勾选和全部不选
+    function checkChange(eve)
+    {
+        var oul=eve.parentNode.nextElementSibling;
+        if(eve.checked)
+        {
+                for(var i=0;i<oul.querySelectorAll('input').length;i++)
+                {
+                    oul.querySelectorAll('input')[i].checked=true;
+                }
+        }
+        else
+        {
+            for(var i=0;i<oul.querySelectorAll('input').length;i++)
+            {
+                oul.querySelectorAll('input')[i].checked=false;
+            }
+        }
+    }
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("form").submit(function(e){
+    alert("Submitted");
+    $.ajax({
+                url: "http://127.0.0.1:5000/registuser",
+                type: "POST",
+                data: $('form').serializeArray(),
+                contentType: "application/json",
+                success: function () {
+                    alert("成功");
+                },
+                async:false
+            });
+  });
+});
+</script>
+</head>
+<body>
+<form name="input" action="" method="get">
+First name:
+<input type="text" name="FirstName" value="Mickey" size="20">
+<br />Last name:
+<input type="text" name="LastName" value="Mouse" size="20">
+<br />
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

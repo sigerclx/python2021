@@ -1,0 +1,636 @@
+{
+	"info": {
+		"_postman_id": "47d9d593-4e57-4544-85ba-c349591b1dc9",
+		"name": "huke",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "flask-restful-api 061",
+			"item": [
+				{
+					"name": "helloworld",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000/",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/jacky",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"jacky"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000/userlist",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"userlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/j1",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":12345\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/j3",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user update password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"jac11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/j1",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "flask-restful-api Local",
+			"item": [
+				{
+					"name": "user info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/user/j1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user list",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "FLASK eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTg4MjM2ODQsImlhdCI6MTYxODgyMzM4NCwibmJmIjoxNjE4ODIzMzg0LCJpZGVudGl0eSI6MX0.7RgRuuVuCdFgu-w-KTYm1F-oZdsi4U9olN4-gO2qkFw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5000/userlist",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"userlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/user/demo",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"demo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":12345\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/user/j2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user tweet list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "FLASK eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTg4MjMyNzksImlhdCI6MTYxODgyMjk3OSwibmJmIjoxNjE4ODIyOTc5LCJpZGVudGl0eSI6MX0.Gg-jRTo_joQ2e386b6Sd1FEzvsllARx_4BJraWI4i9A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/tweet/jacky",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"tweet",
+								"jacky"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tweet add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"body\":\"其中一条\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/tweet/jacky",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"tweet",
+								"jacky"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"jacky\",\r\n    \"password\":\"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user login JWT",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"jacky\",\r\n    \"password\":\"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user update password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"jac11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/user/j1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"j1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "flask原生",
+			"item": [
+				{
+					"name": "users list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000/users",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hello world",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.0.61:5000",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"catchy\",\r\n    \"password\":\"catchy\"\r\n}"
+						},
+						"url": {
+							"raw": "http://192.168.0.61:5000/user",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"username\":\"catchy\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/catchy",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"catchy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user change password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"password\":\"http://192.168.0.61:5000/user/catchy\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.61:5000/user/catchy",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"61"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"catchy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "烟",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fp",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/C:/Users/Jacky/Pictures/head-科美视觉.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "192.168.5.25:8880/tbc/cm/identify",
+					"host": [
+						"192",
+						"168",
+						"5",
+						"25"
+					],
+					"port": "8880",
+					"path": [
+						"tbc",
+						"cm",
+						"identify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

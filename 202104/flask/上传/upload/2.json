@@ -1,0 +1,42 @@
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vmess",
+      "settings": {
+        "udp": false,
+        "clients": [
+          {
+            "id": "e19dff65-a345-477c-9a7c-7966ebb2b782",
+            "alterId": 233,
+            "email": "t@t.tt"
+          }
+        ],
+        "allowTransparent": false
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "oa-h-b.ssie.vip"
+        },
+        "wsSettings": {
+          "path": "/2cf8cc32/",
+          "headers": {
+            "Host": "oa-h-b.ssie.vip"
+          }
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": []
+  }
+}

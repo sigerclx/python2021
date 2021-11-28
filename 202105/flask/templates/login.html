@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="application/javascript">
+    //发送表单ajax请求
+    $(document).ready(function() {
+        $('#a1').css("background-color","red");
+        $('#a1').on('click', function () {
+            $.ajax({
+                url: "buy",
+                type: "POST",
+                data: $('form').serializeArray(),
+                contentType: "application/x-www-form-urlencoded",
+                success: function () {
+                    alert("成功");
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+<form>
+Name: <input type="text" name="username" />
+<br />
+Password: <input type="password" name="password" />
+<br />
+<input type="submit" value="go" />
+    <a id="a1" href="">提交</a>
+</form>
+</body>
+</html>
+

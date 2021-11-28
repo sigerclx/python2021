@@ -1,0 +1,81 @@
+单方,丁香 ,Clove
+单方,丝柏 ,Cypress
+单方,乳香 ,Frankincense
+单方,五味子 ,Schisandra
+单方,佛手柑 ,Bergamot
+单方,依兰依兰 ,Ylang Ylang
+单方,侧柏 ,Arborvitae
+单方,克莱门汀小柑橘 ,Clementine
+单方,卡南伽 ,Cananga
+单方,古巴香脂 ,Copaiba
+单方,夏威夷檀香 ,Hawaiian Sandalwood
+单方,夏香草 ,Savory Summer
+单方,天竺葵 ,Geranium
+单方,姜黄 ,Turmeric
+单方,小野菊 ,Chrysanthemum
+单方,尤加利 ,Eucalyptus
+单方,冬青 ,Wintergreen
+单方,山鸡椒 ,Litsea
+单方,岩兰草 ,Vetiver
+单方,广藿香 ,Patchouli
+单方,当归 ,Dong Quai
+单方,德国洋甘菊 ,German Chamomile
+单方,快乐鼠尾草 ,Clary Sage
+单方,扁柏 ,Hinoki
+单方,摩洛哥蓝艾菊 ,Blue Tansy
+单方,月桂叶 ,Laurel Leaf
+单方,木兰花 ,Magnolia
+单方,杜松浆果 ,Juniper Berry
+单方,枫香 ,Liquidambar
+单方,柠檬 ,Lemon
+单方,柠檬尤加利 ,Lemon Eucalyptus
+单方,柠檬草 ,Lemongrass
+单方,柠檬香桃木 ,Lemon Myrtle
+单方,栀子花 ,Gardenia
+单方,桂花 ,Osmanthus
+单方,橙花 ,Neroli
+单方,檀香 ,Sandalwood
+单方,永久花 ,Helichrysum
+单方,没药 ,Myrrh
+单方,牛膝草 ,Hyssop
+单方,牛至 ,Oregano
+单方,玫瑰 ,Rose
+单方,玫瑰草 ,Palmarosa
+单方,甜茴香 ,Fennel
+单方,生姜 ,Ginger
+单方,百里香 ,Thyme
+单方,神圣罗勒 ,Tulsi
+单方,穗甘松 ,Spikenard
+单方,红橘 ,Tangerine
+单方,绿花白千层 ,Niaouli
+单方,绿薄荷 ,Spearmint
+单方,罗勒 ,Basil
+单方,罗马洋甘菊 ,Roman Chamomile
+单方,肉桂 ,Cinnamon Bark
+单方,胡萝卜籽 ,Carrot Seed
+单方,芫荽叶 ,Cilantro
+单方,芫荽 ,Coriander
+单方,芹菜籽 ,Celery Seed
+单方,苦橙叶 ,Petitgrain
+单方,茉莉 ,Jasmine
+单方,茶树 ,Melaleuca
+单方,莱姆 ,Lime
+单方,葡萄柚 ,Grapefruit
+单方,蓝睡莲 ,Blue Lotus
+单方,椒样薄荷 ,Peppermint
+单方,薰衣草 ,Lavender
+单方,西洋蓍草 ,Yarrow
+单方,豆蔻 ,Cardamon
+单方,迷迭香 ,Rosemary
+单方,道格拉斯冷杉 ,Douglas Fir
+单方,金橘 ,Kumquat
+单方,阿拉斯加柏树 ,Nootka
+单方,雪松 ,Cedarwood
+单方,日本香柚 ,Yuzu
+单方,香脂冷杉 ,Balsam fir
+单方,香茅 ,Citronella
+单方,香蜂草 ,Melissa
+单方,马郁兰 ,Marjoram
+单方,黄橘 ,Yellow Mandarin
+单方,黑云杉 ,Black Spruce
+单方,黑胡椒 ,Black Pepper

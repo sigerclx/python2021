@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html lang="zh-han">
+<head>
+    <title>登录</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+    //发送表单ajax请求
+    //{#$(document).ready(function(){#}
+    {#$(':submit').css("background-color","red");#}
+    //采用本方式，可以减少form被get多提交一次
+    function ajaxForm(){
+        var form= new FormData(document.getElementById("user_form"));
+            $.ajax({
+                url:"registuser",
+                type:"POST",
+                data:JSON.stringify($('form').serializeObject()),
+                contentType:"application/json",  //缺失会出现URL编码，无法转成json对象
+                success:function(rtn){
+                    $('#result').text(rtn.message)
+                }
+            });
+
+     };
+
+    /**
+     * 自动将form表单封装成json对象
+     */
+    $.fn.serializeObject = function() {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+            if (o[this.name]) {
+                if (!o[this.name].push) {
+                    o[this.name] = [ o[this.name] ];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+
+</script>
+</head>
+<body>
+    <form id="user_form" method="post">
+        <label>用户名：<input type="text" name="username" value=""></label><br>
+        <label>密码：<input type="password" name="password" value=""></label><br>
+        <button type="button" onclick="ajaxForm()">Click Me!</button>
+    </form>
+    <div>
+        <p id="result"></p>
+    </div>
+
+</body>
+</html>
