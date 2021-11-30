@@ -120,7 +120,7 @@ env.bak/
 venv.bak/
 
 # 忽略爬虫下载的小说
-novelsbook
+novelsbook/
 
 # Spyder project settings
 .spyderproject
