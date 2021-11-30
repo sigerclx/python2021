@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>玄幻魔法_好看的玄幻魔法排行榜-奇书网</title>
+<meta name="keywords" content="玄幻魔法,好看的玄幻魔法排行榜" />
+<meta name="description" content="奇书网小说网是广大书友最值得收藏的玄幻魔法小说阅读网，网站收录了当前最好看的玄幻魔法小说，免费提供高质量的玄幻魔法小说排行榜，是广大玄幻魔法小说爱好者必备的小说阅读网!" />
+<link href="http://www.126shu.org/novel-list-1-79.html" rel="canonical">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="MobileOptimized" content="320">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<link rel="stylesheet" href="/static/xbiquge/style.css?v=20207">
+<script src="/static/xbiquge/jquery.min.js"></script>
+<script src="/static/xbiquge/common.js?v=20207"></script>
+<script src="/static/xbiquge/user.js?v=20207"></script>
+<script src="/static/xbiquge/pc.js"></script><script>
+
+if(navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null){  //判断是否为移动端
+  if( window.location.host != 'm.126shu.org' ){
+    window.location = 'http://m.126shu.org' + window.location.pathname; //带路径跳转
+  }
+}
+
+</script>
+</head>
+<body id="wrapper">
+<header class="header">
+	<div class="header_logo">
+		<a href="http://www.126shu.org" title="奇书网"><span>奇书网</span><p>www.126shu.org</p></a>
+	</div>
+    <ul class="header_logo_left" id="header_left"></ul>
+    <div class="header_logo_middle" id="header_title"></div>
+    <ul class="header_logo_right">
+        <li><a id="search-btn" href="javascript:;"></a></li>
+        <li><a id="menu-btn" href="javascript:;"></a></li>
+    </ul>
+	<a href="/" class="header_login"></a>
+	<div class="header_search">
+		<form name="search" action="/search/" method="get">
+			<input type="text" placeholder="可搜书名、作者名，请少字也别输错字" value="" name="searchkey" class="search" id="searchkey" autocomplete="off" required>
+			<button type="submit">搜 索</button>
+		</form>
+	</div>
+</header>
+<nav class="nav">
+	<ul>
+        <li><a href="/">首页</a></li>
+                <li> <a href="novel-list-1-1.html">玄幻</a></li>
+                <li> <a href="novel-list-2-1.html">武侠</a></li>
+                <li> <a href="novel-list-3-1.html">都市</a></li>
+                <li> <a href="novel-list-4-1.html">历史</a></li>
+                <li> <a href="novel-list-5-1.html">科幻</a></li>
+                <li> <a href="novel-list-6-1.html">游戏</a></li>
+                <li> <a href="novel-list-7-1.html">女生</a></li>
+                <li> <a href="novel-list-8-1.html">其他</a></li>
+                <li><a href="/rank/allvisit/">热门</a></li>
+        <li><a href="/history.html">记录</a></li>
+	</ul>
+</nav><article id="main">
+    	<div id="hotcontent">
+		<div class="l rank">
+		    <h2>热门的玄幻魔法小说推荐</h2>
+		    		    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/78957.html" title="万古邪帝"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/78/78957/78957s.jpg" alt="万古邪帝" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/78957.html" title="万古邪帝">万古邪帝</a></dt>
+					<dd> 【热血爽文】少年邪天，命运多舛，偶得传承，诸界欲斩。闯九州，杀破河山！战七界，M.bqg5200.com邪字遮天！仙来，我诛！佛来，我屠！杀尽九成九，留一茬儿，看我破天！书友群：361047460，欢迎加入。
+</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E8%90%8C%E5%85%83%E5%AD%90/" title="萌元子">萌元子</a><em class="orange visible-xs">1159万字</em><em class="blue visible-xs">2020-07-02</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/109908.html" title="仙渔之路"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/109/109908/109908s.jpg" alt="仙渔之路" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/109908.html" title="仙渔之路">仙渔之路</a></dt>
+					<dd> 修行世界，无垠之海。穿越为七旬老者的路长卿为了活命，不得不踏上了求仙之途。在黑月吊坠的帮助下，他在这无垠之海内开开荒岛，养养仙渔，顺道娶个天仙道侣，开枝散叶，壮大家族……
+</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E7%A7%8B%E5%88%80%E9%B1%BC%E7%9A%84%E6%B1%81%E5%91%B3/" title="秋刀鱼的汁味">秋刀鱼的汁味</a><em class="orange visible-xs">113万字</em><em class="blue visible-xs">2020-07-01</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/107383.html" title="六格神装"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/107/107383/107383s.jpg" alt="六格神装" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/107383.html" title="六格神装">六格神装</a></dt>
+					<dd> 【恢复指环】、【玄明盾牌】、【淬毒宝珠】…… 一个肌肉大汉，身居六格装备栏！ 一个以妖魔的力量，对抗鬼怪的世界！ 一个用六格神装，碾压敌人，踏上巅峰的故事！ 各位书友要是觉得《六格神装》还不错的话请不要忘记向您QQ群和微博里的朋友推荐哦！
+</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E9%98%B3%E5%90%9B/" title="阳君">阳君</a><em class="orange visible-xs">166万字</em><em class="blue visible-xs">2020-07-01</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/87370.html" title="呆萌小兽妃：九皇叔，别乱来"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/87/87370/87370s.jpg" alt="呆萌小兽妃：九皇叔，别乱来" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/87370.html" title="呆萌小兽妃：九皇叔，别乱来">呆萌小兽妃：九皇叔，别乱来</a></dt>
+					<dd> （爆萌宠文）“哇，你下面跟我的不一样，你是男人耶！男人，你做我夫君吧。”不小心从树上掉了下来的云七七，不巧正砸在水里的某男身上，望着他身下的鸟儿，两眼放光。某人黑了一张脸，从此带她入府，宠之入骨，可王府却成了动物园。“王爷，七七小姐带了一窝兔子回来。”下人回报。“把花园的花拔了种胡萝卜。”某人抬眸。“王爷，七七小姐带了一只老虎回来。”下人花容失色。“把后院房子拆了建树林给老虎玩耍。”某人不假思索</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E7%83%9F%E9%9D%92%E9%9D%92/" title="烟青青">烟青青</a><em class="orange visible-xs">375万字</em><em class="blue visible-xs">2020-07-01</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/99166.html" title="全球搞武"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/99/99166/99166s.jpg" alt="全球搞武" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/99166.html" title="全球搞武">全球搞武</a></dt>
+					<dd> 张小羽，一起去训练？ 张小羽：不去。 张小羽，一起去赚钱？ 张小羽：不去。 你什么都不做，你怎么变强？ 张小羽撇了撇嘴，拿出一条龙腿，撒上孜然，抹上辣椒，狠狠咬了一口。 随即，一道数据在脑海中闪过。 获得异能，小龙快跑，获得卡路里10W，精华点10W，下次进化所需，100W。 看着别人忙忙碌碌的，张小羽再次将一只铁皮黑猪架到烧烤炉上。 吞噬铁皮黑猪一头，获得异能万猪供塔，卡路里10W，进化点10</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E7%8B%82%E5%A5%94%E7%9A%84%E8%A2%96%E7%8F%8D%E7%8C%AA/" title="狂奔的袖珍猪">狂奔的袖珍猪</a><em class="orange visible-xs">191万字</em><em class="blue visible-xs">2020-07-01</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					    	<div class="item">
+				<div class="image">
+					<a href="http://www.126shu.org/txt/101895.html" title="山海经之天帝传说"><img class="lazy" src="/static/xbiquge/nocover.jpg" data-original="https://img.126shu.org/101/101895/101895s.jpg" alt="山海经之天帝传说" width="120" height="150"></a>
+				</div>
+				<dl>
+					<dt><a href="http://www.126shu.org/txt/101895.html" title="山海经之天帝传说">山海经之天帝传说</a></dt>
+					<dd> 这是一个山海经里的上古世界，中国古神话中的六位天帝纷纷出现，战与血交织，生与死诀别。昆仑山之主高高在上俯瞰着整个山海，究竟是造福这一片大陆，还是另有所谋。人族少年帝俊一步步的成长，伴随着他的又将是什么？利益将是山海界的一切事件的根源。 山海经之天帝传说,森林主,山海经之天帝传说最新章节,山海经之天帝传说全文阅读,山海经之天帝传说章节列表,山海经之天帝传说txt,山海经之天帝传说全文免费阅读,山海</dd>
+					<div class="btm"><a href="http://www.126shu.org/author/%E6%A3%AE%E6%9E%97%E4%B8%BB/" title="森林主">森林主</a><em class="orange visible-xs">246万字</em><em class="blue visible-xs">2020-07-01</em></div>
+				</dl>
+				<div class="clear"></div>
+			</div>
+					</div>
+	</div>
+
+	<div id="newscontent">
+		<div class="r">
+			<h2>最新入库玄幻魔法小说</h2>
+			<ul>
+			    						    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121346.html" title="煌煌天道无上剑宗">煌煌天道无上剑宗</a></span>
+					<span class="s5">乘风御剑</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121345.html" title="莹爱成殇">莹爱成殇</a></span>
+					<span class="s5">五少爷的刀</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121343.html" title="全球降临：我能看到回报">全球降临：我能看到回报</a></span>
+					<span class="s5">无敌皇上</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121340.html" title="玄幻：开局一头灵宠">玄幻：开局一头灵宠</a></span>
+					<span class="s5">大炎焱</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121336.html" title="玄幻：开局获得反派系统">玄幻：开局获得反派系统</a></span>
+					<span class="s5">切尔思</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121334.html" title="开局拾取满级武学">开局拾取满级武学</a></span>
+					<span class="s5">河蟹号</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121312.html" title="我在东京当长生者那些年">我在东京当长生者那些年</a></span>
+					<span class="s5">和风遇月</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121307.html" title="全球降临御兽时代">全球降临御兽时代</a></span>
+					<span class="s5">老虚01</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121306.html" title="这个法爷不太正经">这个法爷不太正经</a></span>
+					<span class="s5">萝卜sam</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121303.html" title="邪魂师竟是我自己！">邪魂师竟是我自己！</a></span>
+					<span class="s5">蛰小龙</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121300.html" title="横推世间一切敌">横推世间一切敌</a></span>
+					<span class="s5">平平一块砖</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121299.html" title="明星艺术家">明星艺术家</a></span>
+					<span class="s5">谷雨秋分</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121281.html" title="我从全职开始当法神">我从全职开始当法神</a></span>
+					<span class="s5">仙家小神</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121267.html" title="实习除魔人">实习除魔人</a></span>
+					<span class="s5">月下对酌</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121264.html" title="地窟生存！我能开挂">地窟生存！我能开挂</a></span>
+					<span class="s5">月光蘑菇王</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121244.html" title="万古第一武神">万古第一武神</a></span>
+					<span class="s5">风狂笑</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121228.html" title="纹猎天下">纹猎天下</a></span>
+					<span class="s5">熊初墨舞</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121188.html" title="我的实力取决于身体">我的实力取决于身体</a></span>
+					<span class="s5">钢金</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121187.html" title="奶爸：开局女帝带女儿上门逼婚">奶爸：开局女帝带女儿上门逼婚</a></span>
+					<span class="s5">云火朱雀</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121186.html" title="炼金术士争霸艾泽拉斯">炼金术士争霸艾泽拉斯</a></span>
+					<span class="s5">落笔书写江山</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121185.html" title="我从天牢归来">我从天牢归来</a></span>
+					<span class="s5">丙己戈</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121184.html" title="忍界圆梦大师">忍界圆梦大师</a></span>
+					<span class="s5">公交没有车</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121183.html" title="这个游戏太坑了">这个游戏太坑了</a></span>
+					<span class="s5">闻羲</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121182.html" title="开局签到武当山">开局签到武当山</a></span>
+					<span class="s5">小猪蹄子子</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121181.html" title="全民海岛：我在玄武背上建家园">全民海岛：我在玄武背上建家园</a></span>
+					<span class="s5">康总的小迷弟</span>
+				</li>
+										    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/121180.html" title="悟道武圣">悟道武圣</a></span>
+					<span class="s5">鱼粉不放辣</span>
+				</li>
+																            </ul>
+				<div class="clear"></div>
+
+		</div>
+		<div class="l">
+			<h2>最近更新玄幻魔法小说列表</h2>
+			<ul>
+			     			    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/113504.html" title="镇天剑祖">镇天剑祖</a></span>
+					<span class="s3"><a href="http://www.126shu.org/113504/50768816.html" title="第1495章 结束">第1495章 结束</a></span>
+					<span class="s4">翼鱼</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/113113.html" title="快穿boss前夫总是在黑化">快穿boss前夫总是在黑化</a></span>
+					<span class="s3"><a href="http://www.126shu.org/113113/50766552.html" title="第266章 被杀妻证道的炮灰（二十一）">第266章 被杀妻证道的炮灰（二十一）</a></span>
+					<span class="s4">雪下芝</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/113656.html" title="我家有门通大唐">我家有门通大唐</a></span>
+					<span class="s3"><a href="http://www.126shu.org/113656/50765860.html" title="022醉酒认干爹">022醉酒认干爹</a></span>
+					<span class="s4">人可小何</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/96491.html" title="掌控行者">掌控行者</a></span>
+					<span class="s3"><a href="http://www.126shu.org/96491/50763943.html" title="第五百六十八章 顿悟的完结">第五百六十八章 顿悟的完结</a></span>
+					<span class="s4">九九杨</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/109598.html" title="我师兄明明很强却喜欢发育">我师兄明明很强却喜欢发育</a></span>
+					<span class="s3"><a href="http://www.126shu.org/109598/50762899.html" title="第476章 撕拉，亿点点，最后的决战（大结局）">第476章 撕拉，亿点点，最后的决战（大结局）</a></span>
+					<span class="s4">斗战圣猴</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/111901.html" title="无限制加一">无限制加一</a></span>
+					<span class="s3"><a href="http://www.126shu.org/111901/50759330.html" title="后记与感言">后记与感言</a></span>
+					<span class="s4">平刀</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/113510.html" title="我不修炼也能无敌">我不修炼也能无敌</a></span>
+					<span class="s3"><a href="http://www.126shu.org/113510/50758335.html" title="第231章">第231章</a></span>
+					<span class="s4">沙冷</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/113509.html" title="摊牌了我是最强圣人">摊牌了我是最强圣人</a></span>
+					<span class="s3"><a href="http://www.126shu.org/113509/50758156.html" title="第131章 出发南海龙族！">第131章 出发南海龙族！</a></span>
+					<span class="s4">哈妮克孜牙</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/242.html" title="无上神王">无上神王</a></span>
+					<span class="s3"><a href="http://www.126shu.org/242/50757761.html" title="第四千一百二十一章新的开始（大结局）">第四千一百二十一章新的开始（大结局）</a></span>
+					<span class="s4">草根</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/110224.html" title="狂龙归来">狂龙归来</a></span>
+					<span class="s3"><a href="http://www.126shu.org/110224/50757033.html" title="0641：宫主传道">0641：宫主传道</a></span>
+					<span class="s4">小鸡吃老鹰</span>
+					<span class="s5">2020-07-01</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/103357.html" title="星际预言家">星际预言家</a></span>
+					<span class="s3"><a href="http://www.126shu.org/103357/50754257.html" title="第703章 星际情侣（大结局）">第703章 星际情侣（大结局）</a></span>
+					<span class="s4">尼西贝宝</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/112682.html" title="诸天从充电开始">诸天从充电开始</a></span>
+					<span class="s3"><a href="http://www.126shu.org/112682/50753429.html" title="第132章深入兽巢探查隐秘">第132章深入兽巢探查隐秘</a></span>
+					<span class="s4">缘封</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/111502.html" title="绝世仙帝">绝世仙帝</a></span>
+					<span class="s3"><a href="http://www.126shu.org/111502/50753387.html" title="第513章 盛世（大结局）">第513章 盛世（大结局）</a></span>
+					<span class="s4">佛系十八</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/105507.html" title="无名长生">无名长生</a></span>
+					<span class="s3"><a href="http://www.126shu.org/105507/50752072.html" title="第四三八章 大结局">第四三八章 大结局</a></span>
+					<span class="s4">小心那把剑</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/111024.html" title="斗破之签到就有奖励">斗破之签到就有奖励</a></span>
+					<span class="s3"><a href="http://www.126shu.org/111024/50751000.html" title="第420章 420出发，大千世界！(四千五百字！)">第420章 420出发，大千世界！(四千五百字！)</a></span>
+					<span class="s4">以剑祭诗酒</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/83816.html" title="神武天帝">神武天帝</a></span>
+					<span class="s3"><a href="http://www.126shu.org/83816/50750030.html" title="第3318章 飞越永恒">第3318章 飞越永恒</a></span>
+					<span class="s4">心梦无痕</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/92651.html" title="漫威世界的御主">漫威世界的御主</a></span>
+					<span class="s3"><a href="http://www.126shu.org/92651/50745335.html" title="第四百六十一章：真·大结局">第四百六十一章：真·大结局</a></span>
+					<span class="s4">剑符文</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/111100.html" title="霸总要我七天爱上他">霸总要我七天爱上他</a></span>
+					<span class="s3"><a href="http://www.126shu.org/111100/50745007.html" title="第149章 决不同意年轮和霍影川">第149章 决不同意年轮和霍影川</a></span>
+					<span class="s4">花木公子</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/111240.html" title="从柳树开始进化">从柳树开始进化</a></span>
+					<span class="s3"><a href="http://www.126shu.org/111240/50744603.html" title="第521章 ；再见归墟少主">第521章 ；再见归墟少主</a></span>
+					<span class="s4">我妖选貂蝉</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/14673.html" title="近身狂兵">近身狂兵</a></span>
+					<span class="s3"><a href="http://www.126shu.org/14673/50744579.html" title="蓝锋番外：苍龙星篇02">蓝锋番外：苍龙星篇02</a></span>
+					<span class="s4">潇铭</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/110588.html" title="异世腾龙">异世腾龙</a></span>
+					<span class="s3"><a href="http://www.126shu.org/110588/50744388.html" title="第四十章 大结局">第四十章 大结局</a></span>
+					<span class="s4">鱼钩用3号</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/107451.html" title="神目狂帝">神目狂帝</a></span>
+					<span class="s3"><a href="http://www.126shu.org/107451/50742544.html" title="第921章 谋求生路">第921章 谋求生路</a></span>
+					<span class="s4">武绝神帝</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/110394.html" title="大人物们争着要罩我">大人物们争着要罩我</a></span>
+					<span class="s3"><a href="http://www.126shu.org/110394/50741002.html" title="第660章 知我心，懂我意，愿与我白首不离（完结）">第660章 知我心，懂我意，愿与我白首不离（完结）</a></span>
+					<span class="s4">叶轻轻</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+							    <li>
+					<span class="s1">玄幻</span>
+					<span class="s2"><a href="http://www.126shu.org/txt/92273.html" title="萌妻十八岁">萌妻十八岁</a></span>
+					<span class="s3"><a href="http://www.126shu.org/92273/50740677.html" title="第二千零三十章双喜临门">第二千零三十章双喜临门</a></span>
+					<span class="s4">周兰萍</span>
+					<span class="s5">2020-06-30</span>
+				</li>
+								<script>gu831();</script>
+				<div class="pages"><div class="pagelink" id="pagelink"><a href="/novel-list-1-1.html">1</a><a href="/novel-list-1-78.html">&lt;&lt;</a><a href="/novel-list-1-75.html">75</a><a href="/novel-list-1-76.html">76</a><a href="/novel-list-1-77.html">77</a><a href="/novel-list-1-78.html">78</a><strong>79</strong><a href="/novel-list-1-80.html">80</a><a href="/novel-list-1-81.html">81</a><a href="/novel-list-1-82.html">82</a><a href="/novel-list-1-83.html">83</a><a href="/novel-list-1-84.html">84</a><a href="/novel-list-1-80.html">&gt;&gt;</a><a href="/novel-list-1-454.html">454</a></div></div>
+            </ul>
+
+		</div>
+		<div class="clear"></div>
+		</div>
+</article>
+<!-- footer -->
+<footer class="footer" id="footer">
+	<div class="footer_cont">
+		<p class="hidden-xs">本站所有小说均由根据搜索引擎转码而来，只为让更多读者欣赏，本站不保存小说内容及数据，仅作宣传展示。</p>
+		<p class="visible-xs">基于搜索引擎技术为您提供检索服务</p>
+		<p>Copyright &copy; 2021 奇书网 <a href="/sitemap/sitemap.xml" target="_blank">网站地图</a></p>
+	</div>
+</footer>
+<a class="gotop" onclick="javascript:gotop();">返回顶部</a>
+<script>imglazy();</script>
+<script>tongji();fmta();kuai();</script>
+<script>
+    document.getElementById('header_left').innerHTML = "<li><a href=\"javascript:history.back(-1);\" class=\"back-btn\">返回</a></li><li><a href=\"/history.html\" class=\"book-btn\">书架</a></li>";
+    document.getElementById('header_title').innerHTML = "玄幻魔法小说";
+</script>
+</body>
+</html>
