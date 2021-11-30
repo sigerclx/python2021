@@ -57,7 +57,7 @@ def downloadPage(url):
 
 
 
-for i in range(80,page):
+for i in range(220,page):
 
     url = "https://www.126shu.org/novel-list-1-" +str(i)+".html"
     print('准备下载 , 第 ',i,' 页',url)
