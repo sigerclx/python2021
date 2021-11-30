@@ -119,6 +119,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# 忽略爬虫下载的小说
+novelsbook
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -144,3 +147,7 @@ dmypy.json
 cython_debug/
 *.hdl
 202111/photoTopic/tensorflow-1.15.0-cp37-cp37m-win_amd64.whl
+202111/mysqlBackup/backup/test.sql
+202111/mysqlBackup/backup/haier_ac_od_box_hf_out.sql
+202111/mysqlBackup/backup/haier_ac_od_box_hf.sql
+202111/mysqlBackup/backup/gluing_v1.sql
