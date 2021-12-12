@@ -5,7 +5,7 @@ import requests,time,sys
 from requests import RequestException
 # 注意 本程序的 request 和 urllib3 版本不能太高
 
-page = 92
+page = 80
 
 def downloadPage(url):
     # 下载txt小说的接口
@@ -59,9 +59,9 @@ def downloadPage(url):
 
 
 
-for i in range(1,page):
+for i in range(70,page):
 
-    url = "https://www.126shu.org/novel-list-2-" +str(i)+".html"
+    url = "https://www.126shu.org/novel-list-6-" +str(i)+".html"
     print('准备下载 , 第 ',i,' 页',url)
     downloadPage(url)
 

@@ -4,6 +4,10 @@ from searchengine.search  import Search,Downbook
 
 
 def downloadfile(url,filename):
+    strlist =(')','?','!','(','+','-',':',',')
+    for s in strlist:
+        filename = str.replace(filename,s,'')
+
     gettxt = Downbook()
     gettxt.setengine('down.bqg99.org','down.bqg99.org')
     try:

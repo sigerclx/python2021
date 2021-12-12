@@ -27,7 +27,7 @@ class Search(object):
         self.htmltext = '获取失败'
         while attempts <3600 and not success:
             try:
-                response = s.get(url, headers=self.headers,timeout=(6,15))
+                response = s.get(url, headers=self.headers,timeout=(6,10))
                 success = True
                 self.htmltext = str(response.content, 'utf-8')
 
