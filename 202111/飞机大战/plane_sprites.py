@@ -54,10 +54,13 @@ class Enemy(GameSprite):
         super().__init__(r"素材\敌机.png")
         # 2.设置敌机的随机速度(初始) 1~3
         self.speed = random.randint(2, 4)
-        # 3.设置敌机的随机位置（初始）水平方向
+        # 3.设置敌机的随机位置（初始）垂直方向，bottom = 0为敌机的最下方处于屏幕的最上方，就是将要但还没进入屏幕
         self.rect.bottom = 0
+        # 4.设置敌机的随机位置（初始）水平方向
         max_x = SCREEN_RECT.width - self.rect.width
         self.rect.x = random.randint(0, max_x)
+        # 5.创建爆炸的精灵组
+        self.booms = pygame.sprite.Group()
 
     def update(self, *args):
         # 1.调用父类让敌机在垂直方向移动
@@ -69,6 +72,7 @@ class Enemy(GameSprite):
             self.kill()
 
     def __del__(self):
+
         print("敌机挂了　%s" % self.rect)
 
 
@@ -119,10 +123,25 @@ class Hero(GameSprite):
 class Bullet(GameSprite):
     """子弹精灵"""
     def __init__(self):
-        super().__init__(r"素材\bullet_2.png", -2)
+        super().__init__(r"素材\子弹.png", -2)
 
     def update(self, *args):
+        # 调用父类方法，父类方法里y默认运动，子弹自然会动
         super().update()
-        # 判断是否飞出屏幕，飞出删除
+        # 判断是否向上飞出屏幕，飞出删除
         if self.rect.bottom < 0:
             self.kill()
+
+class Boom(GameSprite):
+    """爆炸精灵"""
+    def __init__(self):
+        super().__init__(r"素材\爆炸.jpeg", -2)  # -2 是指默认向下运动
+
+    def update(self, *args):
+        # 调用父类方法，父类方法里y默认运动，爆炸自然会动
+        super().update()
+        # 判断是否向下飞出屏幕，飞出删除
+        if self.rect.bottom >= SCREEN_RECT.height:
+            print('爆炸飞出屏幕')
+            self.kill()
+
