@@ -1,5 +1,6 @@
 import paddlex as pdx
 import os
+# 利用paddlex 2.0.0  训练出的模型
 
 predictor = pdx.deploy.Predictor(r'inference_model')
 
