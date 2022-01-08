@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8fbb4d6-f429-44d3-af0c-a0808a5a57cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/FlaskServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../202110/halconweb/upload/FlaskServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/halcondo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../202110/halconweb/upload/halcondo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../202110/halconweb/upload/static/images/jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="f8fbb4d6-f429-44d3-af0c-a0808a5a57cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +26,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="8efef150-a698-4bf1-bb1d-75342c7bc1e4" />
+  <component name="JupyterTrust" id="c09b116d-9fbf-4cf2-bc8b-e71b2bda42c4" />
   <component name="ProjectId" id="1tEp2Tl5Diy3x1eWC133Uq2iCn9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -228,6 +216,7 @@
       <workItem from="1633940707484" duration="1784000" />
       <workItem from="1634215043769" duration="377000" />
       <workItem from="1635943301348" duration="715000" />
+      <workItem from="1641616203801" duration="263000" />
     </task>
     <servers />
   </component>
