@@ -11,6 +11,9 @@ choice = selectbook()
 # 获取书单词，短语，句子list
 book_words,book_phrases,book_sentences = getbookcontent(choice)
 
+print(book_words)
+print(book_phrases)
+print(book_sentences)
 # 获取测试题的list
 words = getTestQuestions(book_words)
 # 开始测试听写
