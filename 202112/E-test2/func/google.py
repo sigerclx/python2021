@@ -119,11 +119,11 @@ class Google():
             self.logger.info('谷歌翻译失败 ')
             return None
 
-if __name__ == '__main__':
-
-    gg = Google()
-    text = "Time goes by so fast, people go in and out of your life. You must never miss the opportunity to tell these people how much they mean to you."
-    print(gg.translate('en','zh-CN', text))
-    print(gg.translate('zh-CN', 'en', '时间越来越快，人们进出你的生活。你绝不能错过机会告诉这些人对他们对你有多重要。'))
-
-    #print(gg.translate('zh-CN', 'en', text))
+# if __name__ == '__main__':
+#
+#     gg = Google()
+#     text = "Time goes by so fast, people go in and out of your life. You must never miss the opportunity to tell these people how much they mean to you."
+#     print(gg.translate('en','zh-CN', text))
+#     print(gg.translate('zh-CN', 'en', '时间越来越快，人们进出你的生活。你绝不能错过机会告诉这些人对他们对你有多重要。'))
+#
+#     #print(gg.translate('zh-CN', 'en', text))

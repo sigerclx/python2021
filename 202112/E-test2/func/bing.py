@@ -24,10 +24,11 @@ class Bing(object):
         translate_data = str_data[1:str_data.find('"', 1)]
         return translate_data
 
+
 if __name__ == '__main__':
 
     content='Time goes by so fast, people go in and out of your life. You must never miss the opportunity to tell these people how much they mean to you.'
     bing=Bing()
-    print(bing.translate('zh', 'en','时间越来越快，人们进出你的生活。你绝不能错过机会告诉这些人对他们对你有多重要。'))
-    print(bing.translate('zh', 'en', '时间过得如此之快，人们在你的生活中进进出出。你绝不能错过告诉这些人他们对你有多重要的机会。'))
+    #print(bing.translate('zh', 'en','时间越来越快，人们进出你的生活。你绝不能错过机会告诉这些人对他们对你有多重要。'))
+    #print(bing.translate('zh', 'en', '时间过得如此之快，人们在你的生活中进进出出。你绝不能错过告诉这些人他们对你有多重要的机会。'))
     print(bing.translate('en', 'zh', content))

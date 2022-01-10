@@ -59,8 +59,8 @@
       <recent name="D:\Python\pythonLearn\2021\202106\ttjj\func\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bdc1">
-    <configuration name="bdc1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.bing">
+    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,12 +68,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E-test1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/E-test1/bdc1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/baidu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="connSQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,12 +90,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhongyi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhongyi/connSQL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/bing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="downbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,12 +112,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ebook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ebook/downbook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/fy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getpic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fy2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mztu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mztu/getpic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/fy2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="topall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="google" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,12 +156,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ttjj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ttjj/topall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/google.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bdc1" />
-        <item itemvalue="Python.topall" />
-        <item itemvalue="Python.getpic" />
-        <item itemvalue="Python.downbook" />
-        <item itemvalue="Python.connSQL" />
+        <item itemvalue="Python.bing" />
+        <item itemvalue="Python.google" />
+        <item itemvalue="Python.baidu" />
+        <item itemvalue="Python.fy2" />
+        <item itemvalue="Python.fy" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +217,7 @@
       <workItem from="1634215043769" duration="377000" />
       <workItem from="1635943301348" duration="715000" />
       <workItem from="1641616203801" duration="1708000" />
+      <workItem from="1641626357299" duration="2238000" />
     </task>
     <servers />
   </component>
@@ -228,31 +229,30 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="472" y="157" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1634215432209" />
-    <state x="504" y="135" key="FileChooserDialogImpl/0.0.1538.738@0.0.1538.738" timestamp="1626070726940" />
-    <state width="1397" height="372" key="GridCell.Tab.0.bottom" timestamp="1633940676283">
-      <screen x="0" y="0" width="1538" height="738" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1641627312333">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="372" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1633576329431" />
-    <state width="1397" height="478" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1625666328912" />
     <state width="1397" height="372" key="GridCell.Tab.0.bottom/0.0.1538.738@0.0.1538.738" timestamp="1633940676283" />
-    <state width="1397" height="372" key="GridCell.Tab.0.center" timestamp="1633940676280">
-      <screen x="0" y="0" width="1538" height="738" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312333" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1641627312332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="372" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1633576329429" />
-    <state width="1397" height="478" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1625666328911" />
     <state width="1397" height="372" key="GridCell.Tab.0.center/0.0.1538.738@0.0.1538.738" timestamp="1633940676280" />
-    <state width="1397" height="372" key="GridCell.Tab.0.left" timestamp="1633940676279">
-      <screen x="0" y="0" width="1538" height="738" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1641627312332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="372" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1633576329429" />
-    <state width="1397" height="478" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1625666328911" />
     <state width="1397" height="372" key="GridCell.Tab.0.left/0.0.1538.738@0.0.1538.738" timestamp="1633940676279" />
-    <state width="1397" height="372" key="GridCell.Tab.0.right" timestamp="1633940676282">
-      <screen x="0" y="0" width="1538" height="738" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1641627312332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="372" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1633576329430" />
-    <state width="1397" height="478" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1625666328911" />
     <state width="1397" height="372" key="GridCell.Tab.0.right/0.0.1538.738@0.0.1538.738" timestamp="1633940676282" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,6 +262,11 @@
           <line>1</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fanyi/fy2.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -269,6 +274,7 @@
     <SUITE FILE_PATH="coverage/202106$down.coverage" NAME="down Coverage Results" MODIFIED="1622345577520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downmp3" />
     <SUITE FILE_PATH="coverage/202106$topall.coverage" NAME="topall Coverage Results" MODIFIED="1626061398685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttjj" />
     <SUITE FILE_PATH="coverage/202106$04_ComboBox.coverage" NAME="04_ComboBox Coverage Results" MODIFIED="1622695939262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/07_controlbox2" />
+    <SUITE FILE_PATH="coverage/202106$fy2.coverage" NAME="fy2 Coverage Results" MODIFIED="1641626845592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />
     <SUITE FILE_PATH="coverage/202106$winbdc.coverage" NAME="winbdc Coverage Results" MODIFIED="1622777730743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_bdc" />
     <SUITE FILE_PATH="coverage/202106$calldll.coverage" NAME="calldll Coverage Results" MODIFIED="1623930673154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dll" />
     <SUITE FILE_PATH="coverage/202106$chengyuMean.coverage" NAME="chengyuMean Coverage Results" MODIFIED="1624780528681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-chengyu" />
@@ -293,6 +299,7 @@
     <SUITE FILE_PATH="coverage/202106$backup3.coverage" NAME="backup3 Coverage Results" MODIFIED="1623760405794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xsh_backup" />
     <SUITE FILE_PATH="coverage/202106$05_CalendarWidget.coverage" NAME="05_CalendarWidget Coverage Results" MODIFIED="1622695454385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/06_controlbox" />
     <SUITE FILE_PATH="coverage/202106$plt.coverage" NAME="plt Coverage Results" MODIFIED="1623931006971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/202106$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1641626929956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />
     <SUITE FILE_PATH="coverage/202106$02_menu.coverage" NAME="02_menu Coverage Results" MODIFIED="1622898333063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/03_meanbar" />
     <SUITE FILE_PATH="coverage/202106$snake.coverage" NAME="snake Coverage Results" MODIFIED="1624167134334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/Snake-Game-master" />
     <SUITE FILE_PATH="coverage/202106$piliang.coverage" NAME="piliang Coverage Results" MODIFIED="1624693479559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-chengyu" />
@@ -318,6 +325,7 @@
     <SUITE FILE_PATH="coverage/202106$02_dragbutton.coverage" NAME="02_dragbutton Coverage Results" MODIFIED="1622696153069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/08_Draganddrop" />
     <SUITE FILE_PATH="coverage/202106$bdc__1_.coverage" NAME="bdc1 Coverage Results" MODIFIED="1622563280634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
     <SUITE FILE_PATH="coverage/202106$drawpic.coverage" NAME="drawpic Coverage Results" MODIFIED="1623728177440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/202106$fy.coverage" NAME="fy Coverage Results" MODIFIED="1641626822819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />
     <SUITE FILE_PATH="coverage/202106$01_CheckBox.coverage" NAME="01_CheckBox Coverage Results" MODIFIED="1622695027185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/06_controlbox" />
     <SUITE FILE_PATH="coverage/202106$02_drawpoint.coverage" NAME="02_drawpoint Coverage Results" MODIFIED="1622696275715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/09_draw" />
     <SUITE FILE_PATH="coverage/202106$topurl.coverage" NAME="topurl Coverage Results" MODIFIED="1624888676905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ttjj/func" />
@@ -334,12 +342,14 @@
     <SUITE FILE_PATH="coverage/202106$index.coverage" NAME="index Coverage Results" MODIFIED="1624164664272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/discord_bot.py-master" />
     <SUITE FILE_PATH="coverage/202106$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1624168170699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/六一快乐/21 我的世界" />
     <SUITE FILE_PATH="coverage/202106$04_zonghe.coverage" NAME="04_zonghe Coverage Results" MODIFIED="1622898071234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/03_meanbar" />
+    <SUITE FILE_PATH="coverage/202106$bing.coverage" NAME="bing Coverage Results" MODIFIED="1641627312302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />
     <SUITE FILE_PATH="coverage/202106$connSQL.coverage" NAME="connSQL Coverage Results" MODIFIED="1625057956431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhongyi" />
     <SUITE FILE_PATH="coverage/202106$test.coverage" NAME="test Coverage Results" MODIFIED="1623759872100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xsh_backup" />
     <SUITE FILE_PATH="coverage/202106$num.coverage" NAME="num Coverage Results" MODIFIED="1624166012760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/num" />
     <SUITE FILE_PATH="coverage/202106$getpic.coverage" NAME="getpic Coverage Results" MODIFIED="1625620651828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
     <SUITE FILE_PATH="coverage/202106$03_color.coverage" NAME="03_color Coverage Results" MODIFIED="1622696308447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/09_draw" />
     <SUITE FILE_PATH="coverage/202106$pygame1.coverage" NAME="pygame1 Coverage Results" MODIFIED="1624168200211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/六一快乐/17 俄罗斯方块" />
+    <SUITE FILE_PATH="coverage/202106$google.coverage" NAME="google Coverage Results" MODIFIED="1641627123870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />
     <SUITE FILE_PATH="coverage/202106$03buttontip.coverage" NAME="03buttontip Coverage Results" MODIFIED="1622687112961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui" />
     <SUITE FILE_PATH="coverage/202106$02_ColorDialog.coverage" NAME="02_ColorDialog Coverage Results" MODIFIED="1622693173412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/05_dialog" />
     <SUITE FILE_PATH="coverage/202106$s.coverage" NAME="s Coverage Results" MODIFIED="1624083065191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-sentence" />
@@ -347,7 +357,7 @@
     <SUITE FILE_PATH="coverage/202106$01_Pixmap.coverage" NAME="01_Pixmap Coverage Results" MODIFIED="1622695787791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/07_controlbox2" />
     <SUITE FILE_PATH="coverage/202106$02icon.coverage" NAME="02icon Coverage Results" MODIFIED="1622687067227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui" />
     <SUITE FILE_PATH="coverage/202106$init.coverage" NAME="init Coverage Results" MODIFIED="1622552130460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
-    <SUITE FILE_PATH="coverage/202106$bdc1.coverage" NAME="bdc1 Coverage Results" MODIFIED="1633576298481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
+    <SUITE FILE_PATH="coverage/202106$bdc1.coverage" NAME="bdc1 Coverage Results" MODIFIED="1641626393469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
     <SUITE FILE_PATH="coverage/202106$03_Splitter.coverage" NAME="03_Splitter Coverage Results" MODIFIED="1622695875209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/07_controlbox2" />
   </component>
 </project>

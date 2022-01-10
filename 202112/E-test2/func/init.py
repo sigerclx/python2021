@@ -99,3 +99,10 @@ def getTestQuestions(book_words):
         line = {}
     random.shuffle(words)
     return words
+
+
+def replaceall(juzi):
+    biaodian = ['?', '.', ',', '!', ' ']
+    for str in biaodian:
+        juzi = juzi.replace(str,'')
+    return juzi

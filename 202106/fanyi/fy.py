@@ -32,3 +32,5 @@ def translation(word):
 if __name__ == '__main__':
     an = translation('Time goes by so fast, people go in and out of your life. You must never miss the opportunity to tell these people how much they mean to you.')
     print(an)
+    print(translation('I want a pen friend from UK .'))
+    print(translation('我想交一个笔友'))

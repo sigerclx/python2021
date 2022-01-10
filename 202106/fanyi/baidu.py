@@ -126,5 +126,6 @@ class Baidu(object):
 
 if __name__ == '__main__':
     bd = Baidu()
-    print(bd.translate('zh', 'en', '你好'))
+    print(bd.translate('zh', 'en', '你想交一位笔友吗?'))
+    print(bd.translate('en', 'zh', 'Time goes by so fast, people go in and out of your life. You must never miss the opportunity to tell these people how much they mean to you.'))
     #print(bd.translate('en','zh', "Time goes by so fast, people go in and out of your life. "))
