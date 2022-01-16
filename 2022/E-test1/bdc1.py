@@ -2,6 +2,9 @@ from func.globalValue import *
 from func.listen_write import *
 from func.init import getbookcontent,db_init,getConfig,selectbook,getTestQuestions
 
+# 编译选项
+#pyinstaller -F -i bdc.ico bdc1.py
+
 # 预读参数
 getConfig()
 # 初始化数据库
