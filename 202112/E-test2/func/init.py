@@ -102,7 +102,7 @@ def getTestQuestions(book_words):
 
 
 def replaceall(juzi):
-    biaodian = ['?', '.', ',', '!', ' ']
+    biaodian = ['?', '.', ',', '!', ' ',':',';','-']
     for str in biaodian:
         juzi = juzi.replace(str,'')
     return juzi

@@ -121,6 +121,7 @@ def downtxt(zhangname,url,xiaoshuoname='all.txt'):
 xiaoshuozhan = 'https://www.shuquge.com'
 webhtml = Search("www.shuquge.com")
 name=input('请输入小说名称:')
+zhangjie = input('请输入其实章节:')
 ## 获取搜索结果页面，html是搜索结果页面
 html = webhtml.posturl(name)
 htmlclass = webhtml.gethtmlclass(html)
@@ -144,10 +145,12 @@ xpath = '//div[@class="listmain"]/dl/dt[2]/following-sibling::*//a'
 hclass = htmlclass.xpath(xpath)
 
 #当前下载页面
-
+zhangjie = int(zhangjie)
 number = 0
 for i in hclass:
     number+=1
+    if number < zhangjie :
+        continue
     hreflink = i.attrib['href']
     #print('hreflink=',hreflink,i.text)
     zhangname = '第 '+str(number)+' 章: '+i.text.split('、')[-1]
