@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="c09b116d-9fbf-4cf2-bc8b-e71b2bda42c4" />
+  <component name="JupyterTrust" id="24f9de94-0282-4d39-a577-c4df608bb52f" />
   <component name="ProjectId" id="1tEp2Tl5Diy3x1eWC133Uq2iCn9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../202112" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +59,7 @@
       <recent name="D:\Python\pythonLearn\2021\202106\ttjj\func\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bing">
+  <component name="RunManager" selected="Python.getpicold">
     <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,28 +104,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="202106" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fanyi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/fy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="fy2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="202106" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +118,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanyi/fy2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getpicold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="202106" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mztu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Python\python2021\202106\mztu\getpicold.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getpicold" />
         <item itemvalue="Python.bing" />
         <item itemvalue="Python.google" />
         <item itemvalue="Python.baidu" />
         <item itemvalue="Python.fy2" />
-        <item itemvalue="Python.fy" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +218,8 @@
       <workItem from="1635943301348" duration="715000" />
       <workItem from="1641616203801" duration="1708000" />
       <workItem from="1641626357299" duration="3460000" />
+      <workItem from="1643378824225" duration="10631000" />
+      <workItem from="1643389734791" duration="247000" />
     </task>
     <servers />
   </component>
@@ -228,34 +230,29 @@
     <state x="560" y="152" key="FileChooserDialogImpl" timestamp="1641951669127">
       <screen x="0" y="0" width="1708" height="834" />
     </state>
-    <state x="472" y="157" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1634215432209" />
     <state x="560" y="152" key="FileChooserDialogImpl/0.0.1708.834@0.0.1708.834" timestamp="1641951669127" />
-    <state width="1665" height="340" key="GridCell.Tab.0.bottom" timestamp="1641951670653">
-      <screen x="0" y="0" width="1708" height="834" />
+    <state width="1397" height="396" key="GridCell.Tab.0.bottom" timestamp="1643389949484">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="372" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1633576329431" />
-    <state width="1397" height="372" key="GridCell.Tab.0.bottom/0.0.1538.738@0.0.1538.738" timestamp="1633940676283" />
+    <state width="1397" height="396" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1643389949484" />
     <state width="1665" height="340" key="GridCell.Tab.0.bottom/0.0.1708.834@0.0.1708.834" timestamp="1641951670653" />
     <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312333" />
-    <state width="1665" height="340" key="GridCell.Tab.0.center" timestamp="1641951670652">
-      <screen x="0" y="0" width="1708" height="834" />
+    <state width="1397" height="396" key="GridCell.Tab.0.center" timestamp="1643389949483">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="372" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1633576329429" />
-    <state width="1397" height="372" key="GridCell.Tab.0.center/0.0.1538.738@0.0.1538.738" timestamp="1633940676280" />
+    <state width="1397" height="396" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1643389949483" />
     <state width="1665" height="340" key="GridCell.Tab.0.center/0.0.1708.834@0.0.1708.834" timestamp="1641951670652" />
     <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
-    <state width="1665" height="340" key="GridCell.Tab.0.left" timestamp="1641951670652">
-      <screen x="0" y="0" width="1708" height="834" />
+    <state width="1397" height="396" key="GridCell.Tab.0.left" timestamp="1643389949482">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="372" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1633576329429" />
-    <state width="1397" height="372" key="GridCell.Tab.0.left/0.0.1538.738@0.0.1538.738" timestamp="1633940676279" />
+    <state width="1397" height="396" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1643389949482" />
     <state width="1665" height="340" key="GridCell.Tab.0.left/0.0.1708.834@0.0.1708.834" timestamp="1641951670652" />
     <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
-    <state width="1665" height="340" key="GridCell.Tab.0.right" timestamp="1641951670653">
-      <screen x="0" y="0" width="1708" height="834" />
+    <state width="1397" height="396" key="GridCell.Tab.0.right" timestamp="1643389949483">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="372" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1633576329430" />
-    <state width="1397" height="372" key="GridCell.Tab.0.right/0.0.1538.738@0.0.1538.738" timestamp="1633940676282" />
+    <state width="1397" height="396" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1643389949483" />
     <state width="1665" height="340" key="GridCell.Tab.0.right/0.0.1708.834@0.0.1708.834" timestamp="1641951670653" />
     <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
   </component>
@@ -283,6 +280,7 @@
     <SUITE FILE_PATH="coverage/202106$winbdc.coverage" NAME="winbdc Coverage Results" MODIFIED="1622777730743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_bdc" />
     <SUITE FILE_PATH="coverage/202106$calldll.coverage" NAME="calldll Coverage Results" MODIFIED="1623930673154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dll" />
     <SUITE FILE_PATH="coverage/202106$chengyuMean.coverage" NAME="chengyuMean Coverage Results" MODIFIED="1624780528681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-chengyu" />
+    <SUITE FILE_PATH="coverage/202106$getpicold.coverage" NAME="getpicold Coverage Results" MODIFIED="1643389949416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
     <SUITE FILE_PATH="coverage/202106$03_toolbar.coverage" NAME="03_toolbar Coverage Results" MODIFIED="1622690866833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/03_meanbar" />
     <SUITE FILE_PATH="coverage/202106$downMP3.coverage" NAME="downMP3 Coverage Results" MODIFIED="1623079422825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
     <SUITE FILE_PATH="coverage/202106$04_send_sign.coverage" NAME="04_send_sign Coverage Results" MODIFIED="1622692032671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/04_event" />
@@ -351,7 +349,7 @@
     <SUITE FILE_PATH="coverage/202106$connSQL.coverage" NAME="connSQL Coverage Results" MODIFIED="1625057956431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhongyi" />
     <SUITE FILE_PATH="coverage/202106$test.coverage" NAME="test Coverage Results" MODIFIED="1623759872100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xsh_backup" />
     <SUITE FILE_PATH="coverage/202106$num.coverage" NAME="num Coverage Results" MODIFIED="1624166012760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/num" />
-    <SUITE FILE_PATH="coverage/202106$getpic.coverage" NAME="getpic Coverage Results" MODIFIED="1625620651828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
+    <SUITE FILE_PATH="coverage/202106$getpic.coverage" NAME="getpicold Coverage Results" MODIFIED="1643389237553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
     <SUITE FILE_PATH="coverage/202106$03_color.coverage" NAME="03_color Coverage Results" MODIFIED="1622696308447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/09_draw" />
     <SUITE FILE_PATH="coverage/202106$pygame1.coverage" NAME="pygame1 Coverage Results" MODIFIED="1624168200211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/六一快乐/17 俄罗斯方块" />
     <SUITE FILE_PATH="coverage/202106$google.coverage" NAME="google Coverage Results" MODIFIED="1641627123870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fanyi" />

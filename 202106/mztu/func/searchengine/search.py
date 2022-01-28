@@ -1,6 +1,6 @@
 import requests,os
 from lxml import etree
-import html,random
+import html,random,time,sys
 class Search(object):
     def __init__(self):
 
@@ -17,13 +17,33 @@ class Search(object):
 
     def geturlcontent(self,url,encoding='utf-8'):
         # 获得url页面的txt
-        self.randomHeaders()
-
+        #self.randomHeaders()
+        self.headers["Referer"] = r'https://p.iimzt.com'
+        attempts = 0
+        time1 = 0
+        success = False
         s = requests.session()
-        s.keep_alive = False  # 关闭多余连接
-        response = requests.get(url, headers=self.headers,timeout=30)
-        response.encoding = encoding
-        self.htmltext = response.text
+        s.keep_alive = False
+        # s.adapters(max_retries=3)
+        self.htmltext = '获取失败'
+        while attempts < 3600 and not success:
+            try:
+                response = s.get(url, headers=self.headers, timeout=(5, 10))
+                success = True
+                self.htmltext = str(response.content, 'utf-8')
+
+            except Exception as err:
+                attempts += 1
+                time1 += 2
+                success = False
+                print('尝试次数：', attempts, err)
+                print('休眠：', str(time1))
+
+                time.sleep(time1)
+                if attempts == 3600:
+                    print('尝试次数过多：', attempts, '退出')
+                    sys.exit(0)
+
         return self.htmltext
 
     def randomHeaders(self):
@@ -74,7 +94,8 @@ class Mzt(Search):
     def getphotosurl(self,url):
         txt = Search.geturlcontent(self, url, encoding='utf-8')
         htmlclass = Search.gethtmlclass(self,txt)
-        xpath ="//div[@class='uk-grid uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s g-list']//a/@href"
+        #xpath ="//div[@class='uk-grid uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s g-list']//a/@href"
+        xpath = "//h2[@class='uk-card-title uk-margin-small-top uk-margin-remove-bottom']//a/@href"
         jpgurl = htmlclass.xpath(xpath)
         xpath1 = "//div[@class='uk-card-badge uk-label u-label']/text()"
         jpgnum = htmlclass.xpath(xpath1)
@@ -88,6 +109,7 @@ class Mzt(Search):
         return jpgurl[0]
 
     def download(self,imgUrl,filename):
+        self.headers["Referer"] =r'https://p.iimzt.com'
         s = requests.session()
         s.keep_alive = False  # 关闭多余连接
         # 下载并写入本地文件，同时把下载地址和图片地址写入日志
@@ -112,7 +134,6 @@ class Mzt(Search):
     def create_folder(dest_path):
         if not os.path.exists(dest_path):
             os.makedirs(dest_path)
-
 
 
 
