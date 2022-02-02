@@ -114,6 +114,7 @@ class Mzt(Search):
         s.keep_alive = False  # 关闭多余连接
         # 下载并写入本地文件，同时把下载地址和图片地址写入日志
         if os.path.exists(filename):
+            print(filename,'文件已经存在！')
             return 0
         try:
             res = requests.get(imgUrl, headers=self.headers,timeout=3)

@@ -15,7 +15,7 @@ mzt = Mzt()
 path = r'pic'
 
 #url,num = mzt.getphotosurl('https://mmzztt.com/photo/')
-for k in range(1,13):
+for k in range(22,37):
     url, num = mzt.getphotosurl('https://mmzztt.com/photo/page/'+str(k))
     photos =[]
     for i in range(0,24,1):
@@ -33,7 +33,7 @@ for k in range(1,13):
     fuhao =['a','b','c','d','e','f','g','h','i']
     #fuhao = ['']
     n = 0
-    for pic in photos[4:]:
+    for pic in photos[0:]:
         n +=1
         print('第',n,'组：')
         url = mzt.getJpgurl(pic[0])
@@ -50,7 +50,7 @@ for k in range(1,13):
                 # 获取文件名称
                 create_folder(os.path.join(path,folder))
                 filename = os.path.join(path,folder,url.split(r'/')[-1])
-                #time.sleep(0.2)
+                time.sleep(0.25)
                 if mzt.download(url, filename)==1:
                     break
                 else:

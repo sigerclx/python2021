@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="24f9de94-0282-4d39-a577-c4df608bb52f" />
+  <component name="JupyterTrust" id="c96b94c8-4b3f-4699-8029-9ffc788f1dc8" />
   <component name="ProjectId" id="1tEp2Tl5Diy3x1eWC133Uq2iCn9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2022" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -219,7 +219,8 @@
       <workItem from="1641616203801" duration="1708000" />
       <workItem from="1641626357299" duration="3460000" />
       <workItem from="1643378824225" duration="10631000" />
-      <workItem from="1643389734791" duration="247000" />
+      <workItem from="1643389734791" duration="2218000" />
+      <workItem from="1643433711566" duration="3178000" />
     </task>
     <servers />
   </component>
@@ -227,34 +228,47 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="152" key="FileChooserDialogImpl" timestamp="1641951669127">
-      <screen x="0" y="0" width="1708" height="834" />
+    <state x="630" y="190" key="FileChooserDialogImpl" timestamp="1643440590189">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="152" key="FileChooserDialogImpl/0.0.1708.834@0.0.1708.834" timestamp="1641951669127" />
-    <state width="1397" height="396" key="GridCell.Tab.0.bottom" timestamp="1643389949484">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="630" y="190" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1643440590189" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1643515702189">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="396" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1643389949484" />
+    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1643391052003" />
+    <state width="1397" height="491" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1643390568732" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643515702189" />
     <state width="1665" height="340" key="GridCell.Tab.0.bottom/0.0.1708.834@0.0.1708.834" timestamp="1641951670653" />
     <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312333" />
-    <state width="1397" height="396" key="GridCell.Tab.0.center" timestamp="1643389949483">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="740" height="345" key="GridCell.Tab.0.bottom/0.0.783.503@0.0.783.503" timestamp="1643431847957" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1643515702188">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="396" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1643389949483" />
+    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1643391052000" />
+    <state width="1397" height="491" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1643390568731" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643515702188" />
     <state width="1665" height="340" key="GridCell.Tab.0.center/0.0.1708.834@0.0.1708.834" timestamp="1641951670652" />
     <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
-    <state width="1397" height="396" key="GridCell.Tab.0.left" timestamp="1643389949482">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="740" height="345" key="GridCell.Tab.0.center/0.0.783.503@0.0.783.503" timestamp="1643431847956" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1643515702187">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="396" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1643389949482" />
+    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1643391052000" />
+    <state width="1397" height="491" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1643390568731" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643515702187" />
     <state width="1665" height="340" key="GridCell.Tab.0.left/0.0.1708.834@0.0.1708.834" timestamp="1641951670652" />
     <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
-    <state width="1397" height="396" key="GridCell.Tab.0.right" timestamp="1643389949483">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="740" height="345" key="GridCell.Tab.0.left/0.0.783.503@0.0.783.503" timestamp="1643431847956" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1643515702189">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="396" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1643389949483" />
+    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1643391052002" />
+    <state width="1397" height="491" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1643390568731" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643515702189" />
     <state width="1665" height="340" key="GridCell.Tab.0.right/0.0.1708.834@0.0.1708.834" timestamp="1641951670653" />
     <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641627312332" />
+    <state width="740" height="345" key="GridCell.Tab.0.right/0.0.783.503@0.0.783.503" timestamp="1643431847957" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,7 +294,7 @@
     <SUITE FILE_PATH="coverage/202106$winbdc.coverage" NAME="winbdc Coverage Results" MODIFIED="1622777730743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui_bdc" />
     <SUITE FILE_PATH="coverage/202106$calldll.coverage" NAME="calldll Coverage Results" MODIFIED="1623930673154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dll" />
     <SUITE FILE_PATH="coverage/202106$chengyuMean.coverage" NAME="chengyuMean Coverage Results" MODIFIED="1624780528681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-chengyu" />
-    <SUITE FILE_PATH="coverage/202106$getpicold.coverage" NAME="getpicold Coverage Results" MODIFIED="1643389949416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
+    <SUITE FILE_PATH="coverage/202106$getpicold.coverage" NAME="getpicold Coverage Results" MODIFIED="1643515702161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztu" />
     <SUITE FILE_PATH="coverage/202106$03_toolbar.coverage" NAME="03_toolbar Coverage Results" MODIFIED="1622690866833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/03_meanbar" />
     <SUITE FILE_PATH="coverage/202106$downMP3.coverage" NAME="downMP3 Coverage Results" MODIFIED="1623079422825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
     <SUITE FILE_PATH="coverage/202106$04_send_sign.coverage" NAME="04_send_sign Coverage Results" MODIFIED="1622692032671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qtGui/04_event" />
