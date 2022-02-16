@@ -121,7 +121,7 @@ def downtxt(zhangname,url,xiaoshuoname='all.txt'):
 xiaoshuozhan = 'https://www.shuquge.com'
 webhtml = Search("www.shuquge.com")
 name=input('请输入小说名称:')
-zhangjie = input('请输入其实章节:')
+zhangjie = input('请输入起始章节:')
 ## 获取搜索结果页面，html是搜索结果页面
 html = webhtml.posturl(name)
 htmlclass = webhtml.gethtmlclass(html)
