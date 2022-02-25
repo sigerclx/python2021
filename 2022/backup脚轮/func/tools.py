@@ -76,11 +76,29 @@ def Get_file_list(source_path):
 
 import configparser
 #读取ini方法
-def Read_ini(inivaluse,inikey='param'):
+def read_ini(inivaluse,inikey='param'):
         config = configparser.ConfigParser()
         config.read("config.ini",encoding="utf-8-sig")
         convaluse=config.get(inikey,inivaluse)
         return convaluse
 
+
+import datetime
+# 登记log
+def write_log(str1,timelog='ON',file='date'):
+    print('wwwwwwwwww')
+    if file=='date':
+        logfile = (datetime.datetime.now()).strftime("%Y-%m-%d")+ '.txt'
+    else:
+        logfile = 'config.ini'
+
+    fileList = open(logfile, mode='a', encoding='utf-8')
+    if timelog=='ON':
+        logtime = (datetime.datetime.now()).strftime("%Y-%m-%d %H-%M-%S") + " "
+    else:
+        logtime = ""
+
+    fileList.writelines(logtime+str(str1)+"\n")
+    fileList.close()
 
 

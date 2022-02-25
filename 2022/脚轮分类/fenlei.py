@@ -35,8 +35,8 @@ def Get_file_list(source_path):
         if os.path.isfile(i):
             files_list.append(i)
     return files_list
-sourcepath =  r'S:\数据收集\海尔冷柜-脚轮\B线\20220216采集\2022\02\14'
-destpath = r'S:\数据收集\海尔冷柜-脚轮\B线\20220216-数据整理'
+sourcepath =  r'S:\数据收集\海尔冷柜-脚轮\B线\20220121采集\20'
+destpath = r'S:\数据收集\海尔冷柜-脚轮\B线\20220221-1-数据整理'
 folder , files = current_folder(sourcepath)
 #print(files)
 filelen = len(files)

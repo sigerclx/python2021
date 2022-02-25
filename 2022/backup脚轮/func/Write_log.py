@@ -1,7 +1,7 @@
 import datetime
 # 登记log
-def Write_log(str1,timelog='ON',configfile='date'):
-    if configfile=='date':
+def Write_log(str1,timelog='ON',file='date'):
+    if file=='date':
         logfile = (datetime.datetime.now()).strftime("%Y-%m-%d")+ '.txt'
     else:
         logfile = 'config.ini'
