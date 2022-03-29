@@ -15,11 +15,11 @@ pro = ts.pro_api()
 #df = pro.daily(ts_code='601919.SH', start_date='20220210', end_date='20220215')
 #print(df)
 
-df = ts.get_hist_data('601919',start='2019-08-01',end='2019-08-18',ktype='D')
-#df.to_excel('601919.xlsx')
+df = ts.get_hist_data('601919',start='2018-08-01',end='2019-7-28',ktype='D')
+df.to_excel('601919-2019.xlsx')
 
 #df = ts.get_tick_data('601919')
-print(df)
-engine = create_engine('mysql://root:1234@192.168.0.62/jackytest?charset=utf8')
+#print(df)
+#engine = create_engine('mysql://root:1234@192.168.0.62/jackytest?charset=utf8')
 #存入数据库
-df.to_sql('tick_data',engine,if_exists='append')
+#df.to_sql('tick_data',engine,if_exists='append')
