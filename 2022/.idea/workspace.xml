@@ -30,11 +30,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gupiao" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python\python2021\2022\gupiao" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\python2021\2022\综合备份" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\python2021\2022\gupiao" />
       <recent name="D:\Python\python2021\2022\综合备份" />
     </key>
   </component>
@@ -212,7 +212,7 @@
       <workItem from="1648988086696" duration="1286000" />
       <workItem from="1648995617146" duration="1727000" />
       <workItem from="1648998505128" duration="18850000" />
-      <workItem from="1650200868874" duration="6746000" />
+      <workItem from="1650200868874" duration="8340000" />
     </task>
     <servers />
   </component>
@@ -233,39 +233,39 @@
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647421135379" />
     <state x="593" y="194" key="FileChooserDialogImpl/0.0.1538.738@0.0.1538.738" timestamp="1644986541918" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645777003967" />
-    <state width="1397" height="324" key="GridCell.Tab.0.bottom" timestamp="1650207850896">
+    <state width="1397" height="467" key="GridCell.Tab.0.bottom" timestamp="1650209509488">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
     <state width="1397" height="577" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1645452390096" />
-    <state width="1397" height="324" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1650207850896" />
+    <state width="1397" height="467" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1650209509488" />
     <state width="1493" height="361" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1649068384244" />
     <state width="1495" height="365" key="GridCell.Tab.0.bottom/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001486" />
-    <state width="1397" height="324" key="GridCell.Tab.0.center" timestamp="1650207850894">
+    <state width="1397" height="467" key="GridCell.Tab.0.center" timestamp="1650209509486">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
     <state width="1397" height="577" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1645452390095" />
-    <state width="1397" height="324" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1650207850894" />
+    <state width="1397" height="467" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1650209509486" />
     <state width="1493" height="361" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1649068384243" />
     <state width="1495" height="365" key="GridCell.Tab.0.center/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001484" />
-    <state width="1397" height="324" key="GridCell.Tab.0.left" timestamp="1650207850894">
+    <state width="1397" height="467" key="GridCell.Tab.0.left" timestamp="1650209509485">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1645928374929" />
     <state width="1397" height="577" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1645452390095" />
-    <state width="1397" height="324" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1650207850894" />
+    <state width="1397" height="467" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1650209509485" />
     <state width="1493" height="361" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1649068384242" />
     <state width="1495" height="365" key="GridCell.Tab.0.left/0.0.1538.738@0.0.1538.738" timestamp="1644980468411" />
     <state width="1877" height="486" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001483" />
-    <state width="1397" height="324" key="GridCell.Tab.0.right" timestamp="1650207850895">
+    <state width="1397" height="467" key="GridCell.Tab.0.right" timestamp="1650209509487">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
     <state width="1397" height="577" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1645452390095" />
-    <state width="1397" height="324" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1650207850895" />
+    <state width="1397" height="467" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1650209509487" />
     <state width="1493" height="361" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1649068384243" />
     <state width="1495" height="365" key="GridCell.Tab.0.right/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001484" />
@@ -298,7 +298,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2022$thirdV3.coverage" NAME="thirdV3 Coverage Results" MODIFIED="1649068384217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />
-    <SUITE FILE_PATH="coverage/2022$downloadxs.coverage" NAME="downloadxs Coverage Results" MODIFIED="1650207850866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说2" />
+    <SUITE FILE_PATH="coverage/2022$downloadxs.coverage" NAME="downloadxs Coverage Results" MODIFIED="1650209509460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说2" />
     <SUITE FILE_PATH="coverage/2022$getgupiao.coverage" NAME="getgupiao Coverage Results" MODIFIED="1648555458982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />
     <SUITE FILE_PATH="coverage/2022$zip.coverage" NAME="zip Coverage Results" MODIFIED="1644802668812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zipJpg" />
     <SUITE FILE_PATH="coverage/2022$wheelbk.coverage" NAME="wheelbk Coverage Results" MODIFIED="1643101921760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup脚轮" />

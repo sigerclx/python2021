@@ -104,7 +104,7 @@ def writetxt(strmsg,filename='log.txt'): #把strmsg写入错题本
     return
 
 def downtxt(zhangname,url,zhangNo):
-    print(zhangname,url)
+    #print(zhangname,url)
     txtpage = Search("www.shuquge.com")
     txt =  txtpage.geturlcontent(url)
     #print(txt)
@@ -171,7 +171,7 @@ def main():
             continue
         hreflink = i.attrib['href']
         #print('hreflink=',hreflink,i.text)
-        zhangjieNo = str(number).zfill(4)
+        zhangjieNo = str(number).zfill(5)
         zhangname = '第 '+str(number)+' 章: '+i.text.split('、')[-1]
         print(zhangjieNo,zhangname)
         url = currentUrl+hreflink
@@ -181,7 +181,7 @@ def main():
         zhanglist.append(line)
     #print(zhanglist)
     #sys.exit(0)
-    processNum = 2
+    processNum = 4
     zhanglength = len(zhanglist)
     shang = int(zhanglength / processNum)
     yushu = int(zhanglength % processNum)
@@ -206,8 +206,11 @@ def main():
     for analyseProcess in downloadProcesses:
         analyseProcess.join()
 
+    os.system("type 0????.txt > " + name+'.txt')
+    os.system("del 0????.txt")
 
 
 if __name__ == '__main__':
     main()
+
 
