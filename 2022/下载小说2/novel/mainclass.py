@@ -1,17 +1,29 @@
-from searchengine.urldownload  import Htmlquery
 from multiprocessing import Process
 from searchengine.urldownload  import Htmlquery
+from subprocess import Popen, PIPE
 import os
+import shutil
 
 class Procedure(object):
     def __init__(self):
+        #self.inputname = novelname
         self.xiaoshuozhan = 'https://www.shuquge.com'
         self.webhtml = Htmlquery("www.shuquge.com")
-
+        self.start = 1 #默认下载从第1章开始
 
     def search_novel(self):
         # 搜索小说
-        self.name = input('请输入小说名称:')
+        name = input('请输入小说名称(eg:三寸人间/1480)：')
+        userinput = name.split('/')
+
+        if len(userinput)>1:
+            self.name  = userinput[0]
+            self.start = int(userinput[1])
+            print(self.name,'下载从第',self.start,'章开始 ......')
+        else:
+            self.name = userinput[0]
+            print(self.name, '下载从第 1 章开始 ......')
+
         ## 获取搜索结果页面，html是搜索结果页面
         html = self.webhtml.posturl(self.name)
         htmlclass = self.webhtml.gethtmlclass(html)
@@ -29,7 +41,7 @@ class Procedure(object):
 
     def get_novel_list(self):
         # 下载小说章节目录
-        zhangjie = input('请输入起始章节:')
+        zhangjie = self.start
         txt = self.webhtml.geturlcontent(self.targetUrl)
         htmlclass = self.webhtml.gethtmlclass(txt)
 
@@ -58,6 +70,52 @@ class Procedure(object):
             line.append(url)
             self.zhanglist.append(line)
 
+
+
+    def mutiprocess_down(self,processNum=10):
+        if os.path.exists('novels'):
+            shutil.rmtree('novels')
+        if os.path.exists(self.name + '.txt'):
+            os.remove(self.name + '.txt')
+        create_folder('novels')
+        # 多进程
+        zhanglength = len(self.zhanglist)
+        shang = int(zhanglength / processNum)
+        yushu = int(zhanglength % processNum)
+
+        downloadProcesses = []
+
+        # 开始创建进程
+        for j in range(processNum):
+            x = shang * j
+            y = shang * j + shang
+            # print('x,y,j', x, y, j)
+            downloadProcess = Process(target=downmanyzhang, args=(self.zhanglist[x:y], str(j + 1),))
+            downloadProcesses.append(downloadProcess)
+            downloadProcess.start()
+
+        if yushu != 0:
+            lastdownloadProcess = Process(target=downmanyzhang,
+                                          args=(self.zhanglist[processNum * shang:], str(processNum + 1),))
+            downloadProcesses.append(lastdownloadProcess)
+            lastdownloadProcess.start()
+        # 等待所有进程结束
+        for analyseProcess in downloadProcesses:
+            analyseProcess.join()
+        # print(r"del novels\0????.txt /q")
+        # filename = os.path.join('novels',"*.txt")
+        # os.remove(filename)
+
+        os.system('echo off')
+        os.system(r"type novels\0????.txt > " + self.name + '.txt')
+        shutil.rmtree('novels')
+
+
+
+def create_folder(dest_path):
+    if not os.path.exists(dest_path):
+        os.makedirs(dest_path)
+
 def writetxt(strmsg, filename='log.txt'):  # 把strmsg写入错题本
     try:
         logFile = open(filename, 'a', encoding='utf-8')
@@ -80,45 +138,20 @@ def downtxt(zhangname, url, zhangNo):
     xpath = '//div[@class="showtxt"]/text()'
 
     hclass = htmlclass.xpath(xpath)
+    filename = os.path.join('novels', zhangNo + '.txt')
 
     # print(len(hclass))
-    writetxt('\n\n' + zhangname + '\n', zhangNo + '.txt')
+    writetxt('\n\n' + zhangname + '\n', filename)
     for i in hclass[:-3]:
         # print('hreflink=',i)
-        writetxt(i.replace('    ', ''), zhangNo + '.txt')
+        writetxt(i.replace('    ', ''), filename)
 
-def downmanyzhang(zhanglist,processname):
+def downmanyzhang(zhanglist, processname):
     for zhang in zhanglist:
-        #print('进程：', processname, ':', zhang[1] + " is start !")
+        # print('进程：', processname, ':', zhang[1] + " is start !")
         downtxt(zhang[1], zhang[2], zhang[0])
         print('进程：', processname, ':', zhang[1] + " is downloaded !")
 
-def mutiprocess_down(zhanglist,name ,processNum=10):
-    # 多进程
-    zhanglength = len(zhanglist)
-    shang = int(zhanglength / processNum)
-    yushu = int(zhanglength % processNum)
 
-    downloadProcesses = []
 
-    # 开始创建进程
-    for j in range(processNum):
-        x = shang * j
-        y = shang * j + shang
-        print('x,y,j', x, y, j)
-        downloadProcess = Process(target=downmanyzhang, args=(zhanglist[x:y], str(j + 1),))
-        downloadProcesses.append(downloadProcess)
-        downloadProcess.start()
-
-    if yushu != 0:
-        lastdownloadProcess = Process(target=downmanyzhang,
-                                      args=(zhanglist[processNum * shang:], str(processNum + 1),))
-        downloadProcesses.append(lastdownloadProcess)
-        lastdownloadProcess.start()
-    # 等待所有进程结束
-    for analyseProcess in downloadProcesses:
-        analyseProcess.join()
-
-    os.system("type 0????.txt > " + name + '.txt')
-    os.system("del 0????.txt")
 
