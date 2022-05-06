@@ -2,7 +2,13 @@
 
 {% block content %}
     <h1>Hi, {{ current_user.username }}!</h1>
-    {% for post in posts %}
-    <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    <div>{{ baseDict['tables'] }}</div>
+    {% for field in baseDict['reimbursement'] %}
+    <div>{{ field }}</div>
+    {% endfor %}
+    {% for reimbursement in reimbursements %}
+
+    <div>{{ reimbursement.source.label }}</div>
+    <div>{{ reimbursement.source }} | {{ reimbursement.name }} | {{ reimbursement.qty }} | {{ reimbursement.total }}| {{ reimbursement.timestamp }} </div>
     {% endfor %}
 {% endblock %}
