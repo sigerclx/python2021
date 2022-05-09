@@ -6,7 +6,7 @@ class LoginForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
     remember_me = BooleanField('Remember Me')
-    submit = SubmitField('登录')
+    submit = SubmitField('Sign In')
 
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo
 from app.models import User
@@ -36,13 +36,9 @@ class EditProfileForm(FlaskForm):
     submit = SubmitField('Submit')
 
 class ReimbursementForm(FlaskForm):
-    # 应对templates 下的模板，模板不需要按字段配置
     source = StringField('Source', validators=[DataRequired()])
     name = StringField('Name', validators=[DataRequired()])
     qty = StringField('Qty', validators=[DataRequired()])
     total = StringField('Total', validators=[DataRequired()])
 
     submit = SubmitField('Reimbursement')
-
-class EmptyForm(FlaskForm):
-    submit = SubmitField('Submit')

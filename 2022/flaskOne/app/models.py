@@ -5,12 +5,6 @@ from flask_login import UserMixin
 from app import login
 from hashlib import md5
 
-followers = db.Table(
-    'followers',
-    db.Column('follower_id', db.Integer, db.ForeignKey('user.id')),
-    db.Column('followed_id', db.Integer, db.ForeignKey('user.id'))
-)
-
 @login.user_loader
 def load_user(id):
     return User.query.get(int(id))
@@ -22,11 +16,6 @@ class User(UserMixin,db.Model):
     password_hash = db.Column(db.String(128))
     about_me = db.Column(db.String(140))
     last_seen = db.Column(db.DateTime, default=datetime.utcnow)
-    followed = db.relationship(
-        'User', secondary=followers,
-        primaryjoin=(followers.c.follower_id == id),
-        secondaryjoin=(followers.c.followed_id == id),
-        backref=db.backref('followers', lazy='dynamic'), lazy='dynamic')
     #User类有一个新的posts字段，用db.relationship初始化。这不是实际的数据库字段，
     # 而是用户和其动态之间关系的高级视图，因此它不在数据库图表中。对于一对多关系，
     # db.relationship字段通常在“一”的这边定义，并用作访问“多”的便捷方式。因此，
@@ -54,24 +43,6 @@ class User(UserMixin,db.Model):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
-    def follow(self, user):
-        if not self.is_following(user):
-            self.followed.append(user)
-
-    def unfollow(self, user):
-        if self.is_following(user):
-            self.followed.remove(user)
-
-    def is_following(self, user):
-        return self.followed.filter(
-            followers.c.followed_id == user.id).count() > 0
-
-    def followed_posts(self):
-        followed = Post.query.join(
-            followers, (followers.c.followed_id == Post.user_id)).filter(
-            followers.c.follower_id == self.id)
-        own = Post.query.filter_by(user_id=self.id)
-        return followed.union(own).order_by(Post.timestamp.desc())
 
 
 
@@ -100,7 +71,7 @@ class Reimbursement(db.Model):
     # ，而不是调用它的结果）。 通常，在服务应用中使用UTC日期和时间是推荐做法。 这可以确保
     # 你使用统一的时间戳，无论用户位于何处，这些时间戳会在显示时转换为用户的当地时间。
 
-    id = db.Column(db.Integer,primary_key=True,autoincrement=True)
+    id = db.Column(db.Integer, primary_key=True,autoincrement=True)
     source = db.Column(db.String(10))
     name = db.Column(db.String(50))
     qty = db.Column(db.Integer)
