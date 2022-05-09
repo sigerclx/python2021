@@ -1,6 +1,9 @@
-flask db init
-#  "users table" 是注释
+flask db init  # 建立数据库之初，只需要运行一次
+# 当在flask 中利用类建立表和字段的完成或修改后，就需要运行flask db migrate命令，相当于利用python代码更新下数据库的结构
 # flask db migrate命令不会对数据库进行任何更改，只会生成迁移脚本。 要将更改应用到数据库，必须使用flask db upgrade命令。
 
-flask db migrate -m "users table"
+flask db migrate -m "users table" #  "users table" 是注释
+# 提交修改，过程中不会影响数据库已经存在的数据
 flask db upgrade
+
+

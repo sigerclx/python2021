@@ -1,5 +1,6 @@
 from flask import render_template
 from datetime import datetime
+import math
 from app import app,baseDict
 from app.forms import LoginForm
 from flask_login import login_required
@@ -9,8 +10,21 @@ from app.models import User,Reimbursement
 @app.route('/index')
 @login_required
 def index():
-    reimbursements = Reimbursement.query.order_by(Reimbursement.timestamp.desc()).all()
-    return render_template("index.html", title='Home Page', baseDict=baseDict,reimbursements=reimbursements)
+    page = request.args.get('page', 1, type=int)
+    reimbursements = Reimbursement.query.order_by(Reimbursement.timestamp.desc()).paginate(
+        page, app.config['POSTS_PER_PAGE'], False)
+    # 按记录数计算总页数，向上取整
+    Allpages = math.ceil(int(reimbursements.total) /  app.config['POSTS_PER_PAGE'])
+    first_url = url_for('index', baseDict=baseDict, page=1)
+    next_url = url_for('index', baseDict=baseDict,page=reimbursements.next_num) \
+        if reimbursements.has_next else None
+    prev_url = url_for('index',baseDict=baseDict, page=reimbursements.prev_num) \
+        if reimbursements.has_prev else None
+    # baseDict=baseDict 是否可以不在这传递？
+    last_url = url_for('index', page=Allpages)
+
+    return render_template('index.html', baseDict=baseDict, reimbursements=reimbursements.items,
+                           first_url=first_url,next_url=next_url, prev_url=prev_url,last_url=last_url)
 
 from flask import render_template, flash, redirect,url_for
 from flask_login import current_user, login_user
@@ -45,7 +59,7 @@ def login():
 
 
 from app import db
-from app.forms import RegistrationForm,EditProfileForm
+from app.forms import RegistrationForm,EditProfileForm, EmptyForm
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -76,7 +90,9 @@ def user(username):
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
     ]
-    return render_template('user.html', user=user, posts=posts)
+    #return render_template('user.html', user=user, posts=posts)
+    form = EmptyForm()
+    return render_template('user.html', user=user, posts=posts, form=form)
 
 
 
@@ -111,3 +127,43 @@ def reimbursement():
         #flash('Congratulations, you are now a registered user!')
         #return redirect(url_for('login'))
     return render_template('reimbursement.html', title='采购记录', form=form)
+
+
+@app.route('/follow/<username>', methods=['POST'])
+@login_required
+def follow(username):
+    form = EmptyForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=username).first()
+        if user is None:
+            flash('User {} not found.'.format(username))
+            return redirect(url_for('index'))
+        if user == current_user:
+            flash('You cannot follow yourself!')
+            return redirect(url_for('user', username=username))
+        current_user.follow(user)
+        db.session.commit()
+        flash('You are following {}!'.format(username))
+        return redirect(url_for('user', username=username))
+    else:
+        return redirect(url_for('index'))
+
+
+@app.route('/unfollow/<username>', methods=['POST'])
+@login_required
+def unfollow(username):
+    form = EmptyForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=username).first()
+        if user is None:
+            flash('User {} not found.'.format(username))
+            return redirect(url_for('index'))
+        if user == current_user:
+            flash('You cannot unfollow yourself!')
+            return redirect(url_for('user', username=username))
+        current_user.unfollow(user)
+        db.session.commit()
+        flash('You are not following {}.'.format(username))
+        return redirect(url_for('user', username=username))
+    else:
+        return redirect(url_for('index'))

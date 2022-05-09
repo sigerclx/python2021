@@ -10,9 +10,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -30,18 +41,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/下载小说2/searchengine" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python\python2021\2022\综合备份" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python\python2021\2022\下载小说2\searchengine" />
       <recent name="D:\Python\python2021\2022\gupiao" />
       <recent name="D:\Python\python2021\2022\综合备份" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\python2021\2022\综合备份" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.数据库连接">
+  <component name="RunManager" selected="Python.web">
     <configuration name="数据库连接" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,6 +68,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskOne/数据库连接.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskOne" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskOne/测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,28 +164,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/下载小说2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/下载小说2/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,18 +188,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.downloadxs" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.downloadxs3" />
       <item itemvalue="Python.web" />
       <item itemvalue="Python.数据库连接" />
+      <item itemvalue="Python.测试" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.数据库连接" />
         <item itemvalue="Python.web" />
+        <item itemvalue="Python.测试" />
         <item itemvalue="Python.downloadxs" />
+        <item itemvalue="Python.数据库连接" />
         <item itemvalue="Python.downloadxs3" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +228,7 @@
       <workItem from="1648995617146" duration="1727000" />
       <workItem from="1648998505128" duration="18850000" />
       <workItem from="1650200868874" duration="87750000" />
-      <workItem from="1651839434633" duration="6842000" />
+      <workItem from="1651839434633" duration="28844000" />
     </task>
     <servers />
   </component>
@@ -229,10 +241,14 @@
     </state>
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1651549139476" />
     <state x="232" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645778954874" />
-    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1651569531288">
+    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652077572423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1651569531288" />
+    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1652077572423" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652077622353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1652077622353" />
     <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1647421135379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,40 +257,40 @@
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647421135379" />
     <state x="593" y="194" key="FileChooserDialogImpl/0.0.1538.738@0.0.1538.738" timestamp="1644986541918" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645777003967" />
-    <state width="1397" height="407" key="GridCell.Tab.0.bottom" timestamp="1651847423409">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1493" height="57" key="GridCell.Tab.0.bottom" timestamp="1652083221433">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
-    <state width="1397" height="350" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1651666324994" />
-    <state width="1397" height="407" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1651847423409" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651815033618" />
+    <state width="1397" height="230" key="GridCell.Tab.0.bottom/0.0.1440.735@0.0.1440.735" timestamp="1652017896992" />
+    <state width="1397" height="401" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1651850884933" />
+    <state width="1493" height="57" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652083221433" />
     <state width="1495" height="365" key="GridCell.Tab.0.bottom/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001486" />
-    <state width="1397" height="407" key="GridCell.Tab.0.center" timestamp="1651847423407">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1493" height="57" key="GridCell.Tab.0.center" timestamp="1652083221433">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
-    <state width="1397" height="350" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1651666324993" />
-    <state width="1397" height="407" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1651847423407" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651815033618" />
+    <state width="1397" height="230" key="GridCell.Tab.0.center/0.0.1440.735@0.0.1440.735" timestamp="1652017896991" />
+    <state width="1397" height="401" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1651850884932" />
+    <state width="1493" height="57" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652083221433" />
     <state width="1495" height="365" key="GridCell.Tab.0.center/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001484" />
-    <state width="1397" height="407" key="GridCell.Tab.0.left" timestamp="1651847423406">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1493" height="57" key="GridCell.Tab.0.left" timestamp="1652083221433">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1645928374929" />
-    <state width="1397" height="350" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1651666324992" />
-    <state width="1397" height="407" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1651847423406" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651815033617" />
+    <state width="1397" height="230" key="GridCell.Tab.0.left/0.0.1440.735@0.0.1440.735" timestamp="1652017896991" />
+    <state width="1397" height="401" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1651850884932" />
+    <state width="1493" height="57" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652083221433" />
     <state width="1495" height="365" key="GridCell.Tab.0.left/0.0.1538.738@0.0.1538.738" timestamp="1644980468411" />
     <state width="1877" height="486" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001483" />
-    <state width="1397" height="407" key="GridCell.Tab.0.right" timestamp="1651847423408">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1493" height="57" key="GridCell.Tab.0.right" timestamp="1652083221433">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1645928374930" />
-    <state width="1397" height="350" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1651666324993" />
-    <state width="1397" height="407" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1651847423408" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651815033618" />
+    <state width="1397" height="230" key="GridCell.Tab.0.right/0.0.1440.735@0.0.1440.735" timestamp="1652017896991" />
+    <state width="1397" height="401" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1651850884933" />
+    <state width="1493" height="57" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652083221433" />
     <state width="1495" height="365" key="GridCell.Tab.0.right/0.0.1538.738@0.0.1538.738" timestamp="1644980468412" />
     <state width="1877" height="486" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645779001484" />
     <state width="1397" height="365" key="GridCell.Tab.1.bottom" timestamp="1648820572074">
@@ -301,6 +317,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1651569602890" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1652084170804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1652084170804" />
     <state x="408" y="172" width="718" height="650" key="search.everywhere.popup" timestamp="1650360282993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -309,16 +329,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2022$thirdV3.coverage" NAME="thirdV3 Coverage Results" MODIFIED="1649068384217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />
-    <SUITE FILE_PATH="coverage/2022$downloadxs.coverage" NAME="downloadxs Coverage Results" MODIFIED="1651666324968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说2" />
+    <SUITE FILE_PATH="coverage/2022$downloadxs.coverage" NAME="downloadxs Coverage Results" MODIFIED="1652060746824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说2" />
     <SUITE FILE_PATH="coverage/2022$getgupiao.coverage" NAME="getgupiao Coverage Results" MODIFIED="1648555458982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />
     <SUITE FILE_PATH="coverage/2022$zip.coverage" NAME="zip Coverage Results" MODIFIED="1644802668812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zipJpg" />
     <SUITE FILE_PATH="coverage/2022$wheelbk.coverage" NAME="wheelbk Coverage Results" MODIFIED="1643101921760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup脚轮" />
     <SUITE FILE_PATH="coverage/2022$test.coverage" NAME="test Coverage Results" MODIFIED="1650360884461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说2" />
-    <SUITE FILE_PATH="coverage/2022$web.coverage" NAME="web Coverage Results" MODIFIED="1651847374800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskOne" />
+    <SUITE FILE_PATH="coverage/2022$web.coverage" NAME="web Coverage Results" MODIFIED="1652083221414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskOne" />
     <SUITE FILE_PATH="coverage/2022$gupiaozhifangl.coverage" NAME="gupiaozhifangl Coverage Results" MODIFIED="1649000608896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />
     <SUITE FILE_PATH="coverage/2022$bak.coverage" NAME="bak Coverage Results" MODIFIED="1646631233485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup5" />
     <SUITE FILE_PATH="coverage/2022$downloadxs3.coverage" NAME="downloadxs3 Coverage Results" MODIFIED="1650548256255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载小说3" />
-    <SUITE FILE_PATH="coverage/2022$.coverage" NAME="数据库连接 Coverage Results" MODIFIED="1651847423371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskOne" />
+    <SUITE FILE_PATH="coverage/2022$.coverage" NAME="测试 Coverage Results" MODIFIED="1652079178280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskOne" />
     <SUITE FILE_PATH="coverage/2022$minday.coverage" NAME="minday Coverage Results" MODIFIED="1643098030334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup脚轮" />
     <SUITE FILE_PATH="coverage/2022$bdc1.coverage" NAME="bdc1 Coverage Results" MODIFIED="1643440608544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-test1" />
     <SUITE FILE_PATH="coverage/2022$readexcel.coverage" NAME="readexcel Coverage Results" MODIFIED="1648820027583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gupiao" />

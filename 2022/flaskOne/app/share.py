@@ -18,6 +18,7 @@ class BaseValue(object):
         self.tables = self.engine.table_names()
         self.reimbursement = self.getTablefields('reimbursement')
         #print(tables)
+
     def getTablefields(self,tablename):
         # 获取表字段列表
         md = sqlalchemy.MetaData()
