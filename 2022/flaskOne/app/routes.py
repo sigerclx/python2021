@@ -27,14 +27,10 @@ def index():
                            first_url=first_url,next_url=next_url, prev_url=prev_url,last_url=last_url)
 
 from flask import render_template, flash, redirect,url_for
-from flask_login import current_user, login_user
-from flask_login import logout_user
-
-
+from flask_login import current_user
 
 
 from flask import request
-from werkzeug.urls import url_parse
 
 
 
