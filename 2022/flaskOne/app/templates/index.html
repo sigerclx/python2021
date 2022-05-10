@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-
-{% block content %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block app_content  %}
     <h1>Hi, {{ current_user.username }}!</h1>
     <div>{{ baseDict['tables'] }}</div>
     {% for field in baseDict['reimbursement'] %}
@@ -11,4 +11,35 @@
     <div>{{ reimbursement.source.label }}</div>
     <div>{{ reimbursement.source }} | {{ reimbursement.name }} | {{ reimbursement.qty }} | {{ reimbursement.total }}| {{ reimbursement.timestamp }} </div>
     {% endfor %}
+
+    <nav aria-label="...">
+            <ul class="pager">
+
+                <li class="previous{% if not prev_url %} disabled{% endif %}">
+                    <a href="{{ prev_url or '#' }}">
+                        <span aria-hidden="true">&larr;</span> 上一页
+                    </a>
+                </li>
+
+                <li class="first{% if not first_url %} disabled{% endif %}">
+                    <a href="{{ first_url or '#' }}">
+                        <span aria-hidden="true">&larr;</span> 首页
+                    </a>
+                </li>
+
+                <li class="next{% if not last_url %} disabled{% endif %}">
+                    <a href="{{ last_url or '#' }}">
+                        <span aria-hidden="true">&rarr;</span> 尾页
+                    </a>
+                </li>
+                <li class="last{% if not next_url %} disabled{% endif %}">
+                    <a href="{{ next_url or '#' }}">
+                         <span aria-hidden="true">&rarr;</span>下一页
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+
 {% endblock %}

@@ -1,30 +1,65 @@
 from flask import render_template
 from datetime import datetime
+import math
 from app import app,baseDict
 from app.forms import LoginForm
 from flask_login import login_required
-<<<<<<< HEAD
-from app.models import User,Reimbursement,Post
-=======
 from app.models import User,Reimbursement
 
 @app.route('/')
 @app.route('/index')
 @login_required
 def index():
-    reimbursements = Reimbursement.query.order_by(Reimbursement.timestamp.desc()).all()
-    return render_template("index.html", title='Home Page', baseDict=baseDict,reimbursements=reimbursements)
+    page = request.args.get('page', 1, type=int)
+    reimbursements = Reimbursement.query.order_by(Reimbursement.timestamp.desc()).paginate(
+        page, app.config['POSTS_PER_PAGE'], False)
+    # 按记录数计算总页数，向上取整
+    Allpages = math.ceil(int(reimbursements.total) /  app.config['POSTS_PER_PAGE'])
+    first_url = url_for('index', baseDict=baseDict, page=1)
+    next_url = url_for('index', baseDict=baseDict,page=reimbursements.next_num) \
+        if reimbursements.has_next else None
+    prev_url = url_for('index',baseDict=baseDict, page=reimbursements.prev_num) \
+        if reimbursements.has_prev else None
+    # baseDict=baseDict 是否可以不在这传递？
+    last_url = url_for('index', page=Allpages)
 
->>>>>>> parent of de53fed6 (flask报销系统的分页及bootstrap)
+    return render_template('index.html', baseDict=baseDict, reimbursements=reimbursements.items,
+                           first_url=first_url,next_url=next_url, prev_url=prev_url,last_url=last_url)
+
 from flask import render_template, flash, redirect,url_for
-from app import db
-<<<<<<< HEAD
-<<<<<<< HEAD
 from flask_login import current_user, login_user
-=======
-=======
->>>>>>> parent of de53fed6 (flask报销系统的分页及bootstrap)
-from app.forms import RegistrationForm,EditProfileForm
+from flask_login import logout_user
+
+
+@app.route('/logout')
+def logout():
+    logout_user()
+    return redirect(url_for('index'))
+
+from flask import request
+from werkzeug.urls import url_parse
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user is None or not user.check_password(form.password.data):
+            flash('Invalid username or password')
+            return redirect(url_for('login'))
+        login_user(user, remember=form.remember_me.data)
+        next_page = request.args.get('next')
+        if not next_page or url_parse(next_page).netloc != '':
+            next_page = url_for('index')
+        return redirect(next_page)
+
+    return render_template('login.html', title='Sign In', form=form)
+
+
+from app import db
+from app.forms import RegistrationForm,EditProfileForm, EmptyForm
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -55,7 +90,9 @@ def user(username):
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
     ]
-    return render_template('user.html', user=user, posts=posts)
+    #return render_template('user.html', user=user, posts=posts)
+    form = EmptyForm()
+    return render_template('user.html', user=user, posts=posts, form=form)
 
 
 
@@ -74,7 +111,6 @@ def edit_profile():
         form.about_me.data = current_user.about_me
     return render_template('edit_profile.html', title='Edit Profile',form=form)
 
->>>>>>> parent of de53fed6 (flask报销系统的分页及bootstrap)
 
 from app.forms import ReimbursementForm
 
@@ -90,11 +126,7 @@ def reimbursement():
         return redirect(url_for('index'))
         #flash('Congratulations, you are now a registered user!')
         #return redirect(url_for('login'))
-<<<<<<< HEAD
-<<<<<<< HEAD
     return render_template('reimbursement.html', title='采购记录', form=form)
-
-from app.forms import RegistrationForm,EditProfileForm, EmptyForm
 
 
 @app.route('/follow/<username>', methods=['POST'])
@@ -135,9 +167,3 @@ def unfollow(username):
         return redirect(url_for('user', username=username))
     else:
         return redirect(url_for('index'))
-=======
-    return render_template('reimbursement.html', title='采购记录', form=form)
->>>>>>> parent of de53fed6 (flask报销系统的分页及bootstrap)
-=======
-    return render_template('reimbursement.html', title='采购记录', form=form)
->>>>>>> parent of de53fed6 (flask报销系统的分页及bootstrap)
