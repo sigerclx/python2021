@@ -23,7 +23,7 @@ def Copy_file(file):
         Write_log("copying " + file + ' to ' + dest_path)
     except Exception:
         print("Copying " + file + ' to ' + dest_path + " sleep : " + str(sleepms) + '...')
-        Write_log("copying " + file + ' to ' + dest_path + ' error: 源文件找不到 或其他错误')
+        Write_log("copying " + file + ' to ' + dest_path + ' errors: 源文件找不到 或其他错误')
 
 
 def Delete_file(file):

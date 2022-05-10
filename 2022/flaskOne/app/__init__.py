@@ -33,7 +33,9 @@ baseDict['dbs']=basevalues.dbs
 baseDict['tables']=basevalues.tables
 baseDict['reimbursement'] = basevalues.reimbursement
 
-from app import routes, models, errors
+from app.errors import bp as errors_bp
+app.register_blueprint(errors_bp)
+from app import routes, models
 
 if not app.debug:
     # 给系统增加日志功能

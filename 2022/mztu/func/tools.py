@@ -120,7 +120,7 @@ def writelisttohtml(mylist,htmlfile):
                 webUrlFile.write('<tr>\n')
         webUrlFile.write('</table>')
     except Exception as err:
-            recordLog("write to html error")
+            recordLog("write to html errors")
             recordLog(str(err))
     finally:
             webUrlFile.close()
