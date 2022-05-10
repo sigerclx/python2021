@@ -24,7 +24,7 @@ Flask-Login提供了一个非常有用的功能——强制用户在查看应用
 用户想查看的页面。为了实现这个功能，Flask-Login需要知道哪个视图函数用于处理登录认证。
 'login'值是登录视图函数（endpoint）名，换句话说该名称可用于url_for()函数的参数并返回对应的URL
 '''
-login.login_view = 'login'
+login.login_view = 'auth.login'
 
 basevalues = BaseValue()
 # 全局变量（多个请求之间共享的变量，每个请求都可以对其进行修改。）
@@ -35,7 +35,11 @@ baseDict['reimbursement'] = basevalues.reimbursement
 
 from app.errors import bp as errors_bp
 app.register_blueprint(errors_bp)
-from app import routes, models
+
+from app.auth import bp as auth_bp
+app.register_blueprint(auth_bp, url_prefix='/auth')
+
+from app import  models ,routes
 
 if not app.debug:
     # 给系统增加日志功能
