@@ -2,7 +2,7 @@ from flask import render_template
 from datetime import datetime
 import math
 from app import app,baseDict
-from app.forms import LoginForm
+#from app.forms import LoginForm
 from flask_login import login_required
 from app.models import User,Reimbursement
 
@@ -107,21 +107,21 @@ def edit_profile():
     return render_template('edit_profile.html', title='Edit Profile',form=form)
 
 
-from app.forms import ReimbursementForm
-
-@login_required
-@app.route('/reimbursement', methods=['GET', 'POST'])
-def reimbursement():
-    form = ReimbursementForm()
-    if form.validate_on_submit():
-        record = Reimbursement(source=form.source.data, name=form.name.data,qty=float(form.qty.data),total=float(form.total.data))
-        db.session.add(record)
-        db.session.commit()
-        #aaaa.append(form.source.data)
-        return redirect(url_for('index'))
-        #flash('Congratulations, you are now a registered user!')
-        #return redirect(url_for('login'))
-    return render_template('reimbursement.html', title='采购记录', form=form)
+# from app.forms import ReimbursementForm
+#
+# @login_required
+# @app.route('/reimbursement', methods=['GET', 'POST'])
+# def reimbursement():
+#     form = ReimbursementForm()
+#     if form.validate_on_submit():
+#         record = Reimbursement(source=form.source.data, name=form.name.data,qty=float(form.qty.data),total=float(form.total.data))
+#         db.session.add(record)
+#         db.session.commit()
+#         #aaaa.append(form.source.data)
+#         return redirect(url_for('index'))
+#         #flash('Congratulations, you are now a registered user!')
+#         #return redirect(url_for('login'))
+#     return render_template('reimbursement.html', title='采购记录', form=form)
 
 
 @app.route('/follow/<username>', methods=['POST'])
