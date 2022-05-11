@@ -29,11 +29,11 @@ from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, Le
 #         if user is not None:
 #             raise ValidationError('Please use a different email address.')
 #
-# class EditProfileForm(FlaskForm):
-#     #username = StringField('Username', validators=[DataRequired()])
-#     username = StringField('Username')
-#     about_me = TextAreaField('About me', validators=[Length(min=0, max=140)])
-#     submit = SubmitField('Submit')
+class EditProfileForm(FlaskForm):
+    #username = StringField('Username', validators=[DataRequired()])
+    username = StringField('Username')
+    about_me = TextAreaField('About me', validators=[Length(min=0, max=140)])
+    submit = SubmitField('Submit')
 
 # class ReimbursementForm(FlaskForm):
 #     # 应对templates 下的模板，模板不需要按字段配置

@@ -42,7 +42,10 @@ app.register_blueprint(auth_bp, url_prefix='/auth')
 from app.main import bp as main_bp
 app.register_blueprint(main_bp, url_prefix='/main')
 
-from app import  models ,routes
+from app.home import bp as main_bp
+app.register_blueprint(main_bp, url_prefix='/home')
+
+from app import  models 
 
 if not app.debug:
     # 给系统增加日志功能

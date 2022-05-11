@@ -18,7 +18,7 @@ def reimbursement():
         db.session.add(record)
         db.session.commit()
         #aaaa.append(form.source.data)
-        return redirect(url_for('index'))
+        return redirect(url_for('home.index'))
         #flash('Congratulations, you are now a registered user!')
         #return redirect(url_for('login'))
     return render_template('main/reimbursement.html', title='采购记录', form=form)
