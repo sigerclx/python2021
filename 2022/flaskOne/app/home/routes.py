@@ -1,7 +1,8 @@
 from flask import render_template, redirect, url_for
 import math
 from datetime import datetime
-from app import app, db,baseDict
+from flask import render_template, flash, redirect, url_for, request, g, jsonify, current_app
+from app import db,baseDict
 from app.home import bp
 from app.models import User,Reimbursement
 from app.home.forms import EmptyForm,EditProfileForm
@@ -13,9 +14,9 @@ from flask_login import login_required
 def index():
     page = request.args.get('page', 1, type=int)
     reimbursements = Reimbursement.query.order_by(Reimbursement.timestamp.desc()).paginate(
-        page, app.config['POSTS_PER_PAGE'], False)
+        page, current_app.config['POSTS_PER_PAGE'], False)
     # 按记录数计算总页数，向上取整
-    Allpages = math.ceil(int(reimbursements.total) /  app.config['POSTS_PER_PAGE'])
+    Allpages = math.ceil(int(reimbursements.total) /  current_app.config['POSTS_PER_PAGE'])
     first_url = url_for('home.index', baseDict=baseDict, page=1)
     next_url = url_for('home.index', baseDict=baseDict,page=reimbursements.next_num) \
         if reimbursements.has_next else None
@@ -27,12 +28,7 @@ def index():
     return render_template('home/index.html', baseDict=baseDict, reimbursements=reimbursements.items,
                            first_url=first_url,next_url=next_url, prev_url=prev_url,last_url=last_url)
 
-from flask import render_template, flash, redirect,url_for
 from flask_login import current_user
-
-
-from flask import request
-
 
 @bp.before_request
 def before_request():

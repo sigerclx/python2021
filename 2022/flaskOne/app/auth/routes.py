@@ -4,8 +4,7 @@ from flask_login import login_user, logout_user, current_user
 #from flask_babel import _
 from app import db
 from app.auth import bp
-from app.auth.forms import LoginForm, RegistrationForm, \
-    ResetPasswordRequestForm, ResetPasswordForm
+from app.auth.forms import LoginForm, RegistrationForm,ResetPasswordRequestForm, ResetPasswordForm
 from app.models import User
 #from app.auth.email import send_password_reset_email
 
