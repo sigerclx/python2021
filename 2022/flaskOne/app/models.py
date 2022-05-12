@@ -105,6 +105,10 @@ class Reimbursement(db.Model):
     name = db.Column(db.String(50))
     qty = db.Column(db.Integer)
     total = db.Column(db.Float)
+    billed = db.Column(db.Boolean,default=0)
+    type = db.Column(db.String(6),default='None') #elec,paper
+    send = db.Column(db.String(6),default='unsend')
+    date = db.Column(db.Date,index=True, default=datetime.utcnow)
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     #user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 

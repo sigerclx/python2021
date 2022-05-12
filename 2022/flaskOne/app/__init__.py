@@ -68,5 +68,6 @@ def create_app(config_class=Config):
         app.logger.info('jacky purchase startup')
 
     app.run(host='0.0.0.0', debug=True, port=5003)
+    return app
 
 from app import  models
