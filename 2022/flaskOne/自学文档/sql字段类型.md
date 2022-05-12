@@ -1,4 +1,4 @@
-SQLAlchemy
+# SQLAlchemy
 ### SQLAlchemy常⽤数据类型：
 1. Integer：整形，映射到数据库中是int类型。
 2. Float：浮点类型，映射到数据库中是float类型。他占据的32位。
@@ -17,4 +17,3 @@ SQLAlchemy
 作者：12万花盼曼资料集
 链接：https://wenku.baidu.com/view/44ed7e99bad528ea81c758f5f61fb7360b4c2b95.html
 来源：百度文库
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block app_content %}
+    <h1>采购记录页面</h1>
+    <div class="row">
+        <div class="col-md-4">
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+        <p>
+            {{ form.source.label }}{{ form.source(size=10) }}<br>
+            {% for error in form.source.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.name.label }} {{ form.name(size=24) }}<br>
+            {% for error in form.name.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.qty.label }}
+            {{ form.qty(size=10) }}<br>
+            {% for error in form.qty.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.total.label }}
+            {{ form.total(size=10) }}<br>
+            {% for error in form.total.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.type.label }}
+            {{ form.type() }}<br>
+            {% for error in form.type.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.send.label }}
+            {{ form.send() }}<br>
+            {% for error in form.send.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+         </form>
+        </div>
+    </div>
+{% endblock %}

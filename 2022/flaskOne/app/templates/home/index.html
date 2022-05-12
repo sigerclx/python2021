@@ -9,7 +9,8 @@
     {% for reimbursement in reimbursements %}
 
     <div>{{ reimbursement.source.label }}</div>
-    <div>{{ reimbursement.source }} | {{ reimbursement.name }} | {{ reimbursement.qty }} | {{ reimbursement.total }}| {{ reimbursement.timestamp }} </div>
+    <div>{{ reimbursement.source }} | {{ reimbursement.name }} | {{ reimbursement.qty }} | {{ reimbursement.total }}| {{ reimbursement.date }}
+    | {{ reimbursement.send }}| {{ reimbursement.type }}</div>
     {% endfor %}
 
     <nav aria-label="...">

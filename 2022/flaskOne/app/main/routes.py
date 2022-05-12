@@ -9,12 +9,14 @@ from app.models import Reimbursement
 from flask_login import login_required
 from app.main.forms import ReimbursementForm
 
-@login_required
+
 @bp.route('/reimbursement', methods=['GET', 'POST'])
+@login_required
 def reimbursement():
     form = ReimbursementForm()
     if form.validate_on_submit():
-        record = Reimbursement(source=form.source.data, name=form.name.data,qty=float(form.qty.data),total=float(form.total.data))
+        record = Reimbursement(source=form.source.data, name=form.name.data,qty=form.qty.data, \
+                               total=form.total.data,type=form.type.data,send=form.send.data)
         db.session.add(record)
         db.session.commit()
         #aaaa.append(form.source.data)
