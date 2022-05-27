@@ -153,3 +153,4 @@ cython_debug/
 202111/mysqlBackup/backup/gluing_v1.sql
 202112/猫狗验证/inference_model/model.pdiparams
 pic*/
+*.mp3

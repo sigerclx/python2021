@@ -4,7 +4,7 @@ def Write_log(str1,timelog='ON',configfile='date'):
     if configfile=='date':
         logfile = (datetime.datetime.now()).strftime("%Y-%m-%d")+ '.txt'
     else:
-        logfile = 'config.ini'
+        logfile = 'configNG.ini'
 
     fileList = open(logfile, mode='a', encoding='utf-8')
     if timelog=='ON':

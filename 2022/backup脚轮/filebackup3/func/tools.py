@@ -44,6 +44,6 @@ import configparser
 #读取ini方法
 def Read_ini(inivaluse,inikey='param'):
         config = configparser.ConfigParser()
-        config.read("config.ini",encoding="utf-8-sig")
+        config.read("configNG.ini",encoding="utf-8-sig")
         convaluse=config.get(inikey,inivaluse)
         return convaluse

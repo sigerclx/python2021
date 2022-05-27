@@ -6,7 +6,7 @@ def readConfig(group,key):
     cp = configparser.SafeConfigParser()
     value =""
     try:
-        cp.read('config.ini',encoding='utf-8')
+        cp.read('configNG.ini',encoding='utf-8')
         value = eval(cp.get(group,key))
     except Exception as err:
         print("read config err!"+ str(err))

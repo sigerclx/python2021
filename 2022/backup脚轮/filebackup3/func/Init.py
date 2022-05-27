@@ -18,7 +18,7 @@ def Read_folder():
 
 def ini_init():
     # 首先判断config.ini 在不在,不在就创建一个,就是为了方便.
-    if not os.path.exists('config.ini'):
+    if not os.path.exists('configNG.ini'):
         Write_log("[param]",timelog='off',configfile='config')
         Write_log(r"source_path = d:\pic1", timelog='off',configfile='config')
         Write_log(r"dest_path = y:\pic1", timelog='off',configfile='config')

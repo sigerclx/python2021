@@ -2,7 +2,7 @@
 import configparser
 import func.tools
 # 读取config.ini 获取字典返回值 eval 把字符串转为字典
-def readini(group,key,file='config.ini'):
+def readini(group,key,file='configNG.ini'):
     cp = configparser.SafeConfigParser()
     value =""
     try:

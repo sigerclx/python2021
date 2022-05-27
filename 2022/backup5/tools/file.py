@@ -7,6 +7,7 @@ import backup5.tools.log
 def folderfilelist(folder,includefile=True):
     folderlists =[]
     filelists = []
+
     for file in os.listdir(folder):
         file = os.path.join(folder,file)
         if os.path.isdir(file):

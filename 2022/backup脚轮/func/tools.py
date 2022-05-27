@@ -78,7 +78,7 @@ import configparser
 #读取ini方法
 def read_ini(inivaluse,inikey='param'):
         config = configparser.ConfigParser()
-        config.read("config.ini",encoding="utf-8-sig")
+        config.read("configNG.ini",encoding="utf-8-sig")
         convaluse=config.get(inikey,inivaluse)
         return convaluse
 
@@ -90,7 +90,7 @@ def write_log(str1,timelog='ON',file='date'):
     if file=='date':
         logfile = (datetime.datetime.now()).strftime("%Y-%m-%d")+ '.txt'
     else:
-        logfile = 'config.ini'
+        logfile = 'configNG.ini'
 
     fileList = open(logfile, mode='a', encoding='utf-8')
     if timelog=='ON':
